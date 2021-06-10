@@ -1,6 +1,9 @@
+import './Home.css';
 const Home = () => {
     return (
-        <h2>HomePage</h2>
+        <div className="home-content">
+          <h2>HomePage</h2>
+        </div>
       );
 }
  

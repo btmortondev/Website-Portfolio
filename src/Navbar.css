@@ -1,5 +1,49 @@
+.nav-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    justify-content: space-between;
+    margin: auto;
+    display: flex;
+}
+
+.nav-header-breadcrumb {
+    color: white;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+}
+
+.nav-header-container {
+    display: flex;
+    align-items: center;
+    align-content: flex-end;
+}
+
+.nav-header-img {
+    display: flex;
+    align-items: center;
+}
+
+.nav-header-ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.nav-header-li {
+    flex: 0 0 auto;
+    margin-left: 1rem;
+    list-style: none;
+}
+
 .navLink {
     color:white;
+    display: flex;
+    align-items: center;
+    transition: color 400ms ease-out;
+    line-height: 1;
 }
 
 .navLink:hover{

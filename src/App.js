@@ -6,7 +6,9 @@ import About from './About';
 import Contact from './Contact';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
+
 function App() {
+   
   return (
     <Router>
       <div className="App">
@@ -28,7 +30,7 @@ function App() {
           </Switch>
       </div>
     </div>
-    </Router>
+    </Router> 
   );
 }
 
