@@ -1,0 +1,11 @@
+.page-content {
+    padding-top: 100px;   
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    margin-left: 25%;
+}

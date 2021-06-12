@@ -19,23 +19,27 @@
     display: flex;
     align-items: center;
     align-content: flex-end;
+    margin-right: 100px;
 }
 
 .nav-header-img {
     display: flex;
     align-items: center;
+    margin-left: 210px;
 }
 
 .nav-header-ul {
     display: flex;
     list-style: none;
     align-items: center;
+    justify-content: left;
 }
 
 .nav-header-li {
     flex: 0 0 auto;
     margin-left: 1rem;
     list-style: none;
+    justify-content: left;
 }
 
 .navLink {

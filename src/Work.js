@@ -1,6 +1,8 @@
+import './Work.css';
+
 const Work = () => {
     return ( 
-        <div>
+        <div className="page-content">
             <h1>My Projects</h1>
         </div>
      );
