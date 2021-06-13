@@ -9,3 +9,24 @@
     width: 50%;
     margin-left: 25%;
 }
+
+.form-label {
+    color: var(--website-color-2);
+}
+
+.form-input {
+    color: var(--website-color-4);
+}
+
+::placeholder {
+    color: var(--website-color-4);
+    opacity: .5;
+}
+
+.form-submit {
+    color: var(--website-color-3);
+}
+
+.form-message {
+    color: var(--website-color-4);
+}
