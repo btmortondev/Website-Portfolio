@@ -45,3 +45,12 @@
 .resume-link:visited {
     text-decoration: none;
 }
+
+.resume-download-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 5px;
+    margin-top: 10px;
+    color: var(--website-color-4);
+}

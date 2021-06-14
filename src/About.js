@@ -1,5 +1,6 @@
 import './About.css';
 import Resume from './Content/BTM-21-Resume.pdf';
+import GetAppIcon from '@material-ui/icons/GetApp';
 
 const About = () => {
     return ( 
@@ -16,6 +17,7 @@ const About = () => {
                     <li  >
                         Download my
                         <a className="resume-link" href= { Resume } target="_blank" rel="noreferrer"> resume </a>
+                        <GetAppIcon className="resume-download-icon"/>
                     </li>
                 </ul>
             </div>
