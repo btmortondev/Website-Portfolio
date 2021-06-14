@@ -1,12 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Aldrich&display=swap');
 
 :root {
+    /* Peach Theme Colors */
     --website-background: #6D6875;
     --website-color-1: #B5838D;
     --website-color-2: #E5989B;
     --website-color-3: #FFB4A2;
     --website-color-4: #FFCDB2;
-    /* Link to pallette: https://coolors.co/ffcdb2-ffb4a2-e5989b-b5838d-6d6875*/
+    
+    /* American Popsicle Theme Colors */
+    --amerpop-red: #E63946;
+    --amerpop-light: #F1FAEE;
+    --amerpop-blue1: #A8DADC;
+    --amerpop-blue2: #457B9D;
+    --amerpop-background: #1D3557;
+
+    /*  */
     
 }
 
