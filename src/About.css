@@ -1,3 +1,47 @@
 .about-content {
     padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    margin-left: 25%;
+}
+
+.about-title {
+    color: var(--website-color-4);
+    font-size: 40px;
+}
+
+.about-first-fold {
+    display: flex;
+}
+
+.about-contact {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.about-contact-li {
+    color: white;
+}
+
+.resume-link {
+    color: var(--website-background);;
+    align-items: center;
+    padding-right: 8px;
+    text-decoration: none;
+    background-color: var(--website-color-4);
+    border-radius: 8px;
+    margin-left: 5px;
+}
+
+.resume-link:hover {
+    color: var(--website-background);
+    background-color: white;
+
+}
+
+.resume-link:visited {
+    text-decoration: none;
 }
