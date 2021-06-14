@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&display=swap');
+
 :root {
     --website-background: #6D6875;
     --website-color-1: #B5838D;
@@ -5,8 +7,10 @@
     --website-color-3: #FFB4A2;
     --website-color-4: #FFCDB2;
     /* Link to pallette: https://coolors.co/ffcdb2-ffb4a2-e5989b-b5838d-6d6875*/
+    
 }
 
 * {
     background-color: var(--website-background);
+    font-family: 'Aldrich', sans-serif;
 }
