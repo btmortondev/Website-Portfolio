@@ -12,8 +12,13 @@
     font-size: 40px;
 }
 
+
+/* Content for first fold */
 .about-first-fold {
     display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    justify-content: center;
 }
 
 .about-contact {
@@ -26,6 +31,8 @@
     color: white;
 }
 
+
+/* Content for Resume Download Link */
 .resume-link {
     color: var(--website-background);;
     align-items: center;
@@ -53,4 +60,49 @@
     padding-left: 5px;
     margin-top: 10px;
     color: var(--website-color-4);
+}
+
+
+/* Interests Portion of About Page */
+.interests-title {
+    color: var(--website-color-3);
+}
+
+.interests-li {
+    list-style: none;
+    color: var(--website-color-4);
+}
+
+.interests-ul {
+    display: flex;
+}
+
+
+/* Skills Portion on About Page */
+.skills-title {
+    color: var(--website-color-3);
+}
+
+.skills-ul {
+    display: flex;
+}
+
+.skills-li {
+    color: var(--website-color-4);
+    list-style: none;
+}
+
+
+/* Content for Work Experience Section */
+.work-experience-title {
+    color: var(--website-color-3);
+}
+
+.work-experience-ul {
+    display: flex;
+}
+
+.work-experience-li {
+    color: var(--website-color-4);
+    list-style: none;
 }
