@@ -25,4 +25,31 @@
     color: var(--dr-grey);
     text-align: center;
     font-size: 25px;
+    padding-bottom: 30px;
+}
+
+.footer-content {
+    margin-left: 10px;
+    display: inline-block;
+}
+
+.made-with-title {
+    margin-left: 40px;
+    color: white;
+}
+
+.made-with-list {
+    list-style: none;
+}
+
+.made-with-li {
+    color: var(--dr-red3);
+}
+
+.project-signature {
+    color: var(--dr-grey);
+    position: absolute;
+    margin-right: 10px;
+    display: inline-block;
+    right: 0px;
 }

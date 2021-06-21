@@ -16,7 +16,7 @@ const About = () => {
                         </a>
                     </li>
                     <li className="about-contact-li" >
-                        <a className="linkedin-link" > <LinkedInIcon /> </a>
+                        <a href="https://www.linkedin.com/in/brandon-morton-551508215/" target="blank" rel="nonreferrer" className="linkedin-link" > <LinkedInIcon /> </a>
                     </li>
                     <li className="about-contact-li" >
                         Download my resume
