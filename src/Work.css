@@ -1,3 +1,39 @@
 .page-content {
     padding-top: 100px;   
 }
+
+.project-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    margin-left: 25%;
+    border: var(--dr-grey) solid 5px;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.project-list {
+    list-style: none;
+    text-decoration: none;
+}
+
+.project-link {
+    text-decoration: none;
+}
+
+.project-title {
+    color: var(--dr-red3);
+}
+
+.project-type {
+    color: var(--dr-red3);
+}
+
+.project-purpose {
+    color: white;
+}
+
+.game-logo {
+    transform: scale(1.5);
+}

@@ -16,18 +16,21 @@ const About = () => {
                         </a>
                     </li>
                     <li className="about-contact-li" >
-                        <a href="https://www.linkedin.com/in/brandon-morton-551508215/" target="blank" rel="nonreferrer" className="linkedin-link" > <LinkedInIcon /> </a>
+                        <a href="https://www.linkedin.com/in/brandon-morton-551508215/" target="_blank" rel="noreferrer"
+                         className="linkedin-link" > <LinkedInIcon /> </a>
                     </li>
                     <li className="about-contact-li" >
                         Download my resume
-                        <a href= { Resume } target="_blank" rel="noreferrer">
-                        <GetAppIcon className="resume-download-icon"/> </a>
+                        <a href= { Resume } target="_blank" rel="noreferrer" className="resume-download-icon" >
+                        <GetAppIcon /> </a>
                     </li>
                 </ul>
                 <p className="about-description" >
-                    I am a software engineer who recently graduated college and I aspire to work in frontend web development.
-                    I have taught myself and learned on my own most of the skills I need to do what I want for development work. 
-                    I currently live in Youngstown, OH and would eventually like to move away. 
+                    I am a software engineer who recently graduated college from Youngstown State University.
+                    Frontend development is what I'm looking to do for work and all of the skills and knowledge I have
+                    applicable is self taught.
+                    I currently live in Youngstown, OH and would eventually like to move away.
+                    Remote work or somewhere that is reasonable to comute would be great!
                 </p>
             </div>
             <div className="about-second-fold" >

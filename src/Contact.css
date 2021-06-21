@@ -16,6 +16,11 @@
     border: var(--dr-grey) solid 5px;
     border-radius: 10px;
     padding: 30px;
+    transition: all 500ms ease-in-out;
+}
+
+.contact-form:hover {
+    border: white solid 5px;
 }
 
 .form-label {

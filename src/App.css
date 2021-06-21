@@ -3,6 +3,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
 
 :root {
+    /* Animation Speed */
+    --animspeed: 500ms;
+
     /* Peach Theme Colors */
     --website-background: #6D6875;
     --website-color-1: #B5838D;

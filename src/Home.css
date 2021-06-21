@@ -14,7 +14,7 @@
     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#F83D5C", endColorstr="#FD4B2F", GradientType=1 );
 
     text-align: center;
-    font-size: 250px;
+    font-size: 240px;
     font-weight: 700;
     padding-bottom: 0;
     margin-bottom: 0;
@@ -25,7 +25,7 @@
     color: var(--dr-grey);
     text-align: center;
     font-size: 25px;
-    padding-bottom: 30px;
+    padding-bottom: 25px;
 }
 
 .footer-content {
@@ -52,4 +52,15 @@
     margin-right: 10px;
     display: inline-block;
     right: 0px;
+}
+
+.social-icons {
+    color: var(--dr-red3);
+    text-decoration: none;
+    padding-right: 10px;
+    transition: all 500ms ease-in-out;
+}
+
+.social-icons:hover {
+    color: white;
 }
