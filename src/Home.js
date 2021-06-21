@@ -2,7 +2,10 @@ import './Home.css';
 const Home = () => {
     return (
         <div className="home-content">
-          <h2>HomePage</h2>
+          <p className="homepage-greeting" > Hello, </p>
+          <p className="homepage-subgreeting" >
+            Welcome to my personal portfolio website.
+          </p>
         </div>
       );
 }

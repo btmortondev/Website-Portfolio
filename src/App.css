@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Aldrich&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
 
 :root {
     /* Peach Theme Colors */
@@ -16,11 +17,15 @@
     --amerpop-blue2: #457B9D;
     --amerpop-background: #1D3557;
 
-    /*  */
-    
+    /* Dark Red Theme */
+    --dr-background: #1A1A1D;
+    --dr-grey: #4E4E50;
+    --dr-red1: #6F2232;
+    --dr-red2: #950740;
+    --dr-red3: #C3073F;
 }
 
 * {
-    background-color: var(--website-background);
-    font-family: 'Aldrich', sans-serif;
+    background-color: var(--dr-background);
+    font-family: 'Roboto Mono';
 }

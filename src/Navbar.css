@@ -54,6 +54,6 @@
 }
 
 .navLink:hover{
-    color: var(--website-color-3);
+    color: var(--dr-red3);
     font-size: 22px;
 }

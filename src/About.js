@@ -1,6 +1,8 @@
 import './About.css';
 import Resume from './Content/BTM-21-Resume.pdf';
 import GetAppIcon from '@material-ui/icons/GetApp';
+import GitHubIcon from '@material-ui/icons/GitHub';
+import LinkedInIcon from '@material-ui/icons/LinkedIn';
 
 const About = () => {
     return ( 
@@ -9,18 +11,20 @@ const About = () => {
             <div className="about-first-fold" >
                 <ul className="about-contact" >
                     <li className="about-contact-li" >
-
+                        <a href="https://github.com/btmortondev" target="_blank" rel="noreferrer" className="github-link" >
+                        <GitHubIcon/>
+                        </a>
                     </li>
                     <li className="about-contact-li" >
-
+                        <a className="linkedin-link" > <LinkedInIcon /> </a>
                     </li>
-                    <li  >
-                        Download my
-                        <a className="resume-link" href= { Resume } target="_blank" rel="noreferrer"> resume </a>
-                        <GetAppIcon className="resume-download-icon"/>
+                    <li className="about-contact-li" >
+                        Download my resume
+                        <a href= { Resume } target="_blank" rel="noreferrer">
+                        <GetAppIcon className="resume-download-icon"/> </a>
                     </li>
                 </ul>
-                <p>
+                <p className="about-description" >
                     I am a software engineer who recently graduated college and I aspire to work in frontend web development.
                     I have taught myself and learned on my own most of the skills I need to do what I want for development work. 
                     I currently live in Youngstown, OH and would eventually like to move away. 

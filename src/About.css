@@ -8,7 +8,7 @@
 }
 
 .about-title {
-    color: var(--website-color-4);
+    color: var(--dr-red3);
     font-size: 40px;
 }
 
@@ -29,24 +29,34 @@
 
 .about-contact-li {
     color: white;
+    font-size: 20px;
+}
+
+.github-link {
+    padding-right: 10px;
+    color: var(--dr-red3);
+    transition: all 500ms ease-in-out;
+}
+
+.github-link:hover {
+    color: white;
+}
+
+.linkedin-link {
+    padding-right: 10px;
+    color: var(--dr-red3);
+    transition: all 500ms ease-in-out;
+}
+
+.linkedin-link:hover {
+    color: white;
 }
 
 
 /* Content for Resume Download Link */
-.resume-link {
-    color: var(--website-background);;
-    align-items: center;
-    padding-right: 8px;
-    text-decoration: none;
-    background-color: var(--website-color-4);
-    border-radius: 8px;
-    margin-left: 5px;
-}
-
-.resume-link:hover {
-    color: var(--website-background);
-    background-color: white;
-
+.about-description {
+    margin-left: 40px;
+    color: var(--dr-red3)
 }
 
 .resume-link:visited {
@@ -54,23 +64,29 @@
 }
 
 .resume-download-icon {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-left: 5px;
-    margin-top: 10px;
-    color: var(--website-color-4);
+    color: var(--dr-background);
+    background-color: var(--dr-red3);
+    border-radius: 50%;
+    margin-left: 10px;
+    transition: all 500ms ease-in-out;
+}
+
+.resume-download-icon:hover {
+    color: var(--dr-background);
+    background-color: white;
 }
 
 
 /* Interests Portion of About Page */
 .interests-title {
-    color: var(--website-color-3);
+    color: var(--dr-red3);
+    margin-left: 40px;
 }
 
 .interests-li {
     list-style: none;
-    color: var(--website-color-4);
+    color: white;
+    padding-right: 20px;
 }
 
 .interests-ul {
@@ -80,7 +96,8 @@
 
 /* Skills Portion on About Page */
 .skills-title {
-    color: var(--website-color-3);
+    color: var(--dr-red3);
+    margin-left: 40px;
 }
 
 .skills-ul {
@@ -88,14 +105,16 @@
 }
 
 .skills-li {
-    color: var(--website-color-4);
+    color: white;
     list-style: none;
+    padding-right: 20px;
 }
 
 
 /* Content for Work Experience Section */
 .work-experience-title {
-    color: var(--website-color-3);
+    color: var(--dr-red3);
+    margin-left: 40px;
 }
 
 .work-experience-ul {
@@ -103,6 +122,7 @@
 }
 
 .work-experience-li {
-    color: var(--website-color-4);
+    color: white;
     list-style: none;
+    padding-right: 20px;
 }

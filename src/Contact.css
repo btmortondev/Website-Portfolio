@@ -4,7 +4,7 @@
 
 .page-title {
     margin-left: 46.5%;
-    color: var(--website-color-4);
+    color: var(--dr-red3);
 }
 
 .contact-form {
@@ -13,33 +13,32 @@
     justify-content: center;
     width: 50%;
     margin-left: 25%;
-    border: var(--website-color-2) solid 5px;
+    border: var(--dr-grey) solid 5px;
     border-radius: 10px;
     padding: 30px;
 }
 
 .form-label {
-    color: var(--website-color-2);
+    color: var(--dr-red2);
     font-size: 24px;
 }
 
 .form-input {
-    color: var(--website-color-4);
-    border-color: var(--website-color-1);
+    color: white;
+    border-color: var(--dr-red1);
     border-radius: 25% 10%;
     border-width: 5px;
     font-size: 20px;
 }
 
 ::placeholder {
-    color: var(--website-color-4);
-    opacity: .5;
+    color: var(--dr-grey);
 }
 
 .form-submit {
-    color: var(--website-color-3);
+    color: white;
     font-size: 18px;
-    border-color: var(--website-color-1);
+    border-color: var(--dr-red1);
     border-radius: 10px;
     border-width: 5px;
     margin-top: 20px;
@@ -53,8 +52,8 @@
 }
 
 .form-message {
-    color: var(--website-color-4);
-    border-color: var(--website-color-1);
+    color: white;
+    border-color: var(--dr-red1);
     border-width: 3px;
     border-radius: 10px;
     font-size: 20px;
