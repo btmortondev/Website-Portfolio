@@ -1,5 +1,5 @@
 import './About.css';
-import Resume from './Content/BTM-21-Resume.pdf';
+import Resume from './Content/BTM-21-ResumeJune.pdf';
 import GetAppIcon from '@material-ui/icons/GetApp';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
@@ -61,9 +61,11 @@ const About = () => {
                         <br/>
                         JavaScript
                         <br/>
-                        HTML/JSX
+                        HTML
                         <br/>
                         CSS
+                        <br/>
+                        Firebase
                         <br/>
                         Drupal
                     </li>

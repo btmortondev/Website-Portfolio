@@ -13,6 +13,10 @@
     padding: 30px;
 }
 
+.project-content:hover {
+    border-color: white;
+}
+
 .project-list {
     list-style: none;
     text-decoration: none;
@@ -35,7 +39,23 @@
 }
 
 .project-item {
-    padding-bottom: 40px;
+    padding-bottom: 60px;
+    transition: all 200ms ease-in-out;
+}
+
+.project-item:hover {
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.project-item:hover .project-purpose {
+    color: var(--dr-red3);
+    text-decoration: underline;
+}
+
+.project-item:hover .project-title, .project-item:hover .project-type {
+    color: white;
+    text-decoration: underline;
 }
 
 .project-purpose {
