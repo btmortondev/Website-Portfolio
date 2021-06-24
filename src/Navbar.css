@@ -9,7 +9,7 @@
 }
 
 .nav-header-breadcrumb {
-    color: white;
+    color: var(--dr-grey);
     margin-left: 100px;
     font-size: 20px;
     font-weight: 700;
@@ -27,7 +27,8 @@
 .nav-header-img {
     display: flex;
     align-items: center;
-    margin-left: 350px;
+    margin-left: 820px;
+    position: absolute;
 }
 
 .nav-header-ul {
