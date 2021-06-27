@@ -57,3 +57,35 @@
     color: var(--dr-red3);
     font-size: 22px;
 }
+
+@media only screen and (max-width: 768px){
+    .nav-header {
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        justify-content: space-between;
+        display: flex;
+    }
+
+    .nav-header-breadcrumb {
+        margin-left: 10px;
+        visibility: hidden;
+    }
+
+    .nav-header-container {
+        margin-right: 200px;
+    }
+
+    .navLink {
+        font-size: 18px;
+    }
+
+    .navLink:hover {
+        font-size: 20px;
+    }
+
+    .nav-header-img {
+        margin-left: 20px;
+    }
+}

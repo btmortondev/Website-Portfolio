@@ -64,3 +64,19 @@
 .social-icons:hover {
     color: white;
 }
+
+@media only screen and (max-width: 768px) {
+    .home-content {
+        padding-top: 0;
+    }
+
+    .homepage-greeting {
+        padding-top: 0;
+        margin-top: 80px;
+        font-size: 150px;
+    }
+
+    .homepage-subgreeting {
+        font-size: 20px;
+    }
+}
