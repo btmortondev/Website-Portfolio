@@ -80,3 +80,41 @@
         font-size: 20px;
     }
 }
+
+@media only screen and (max-width: 375px) {
+    .homepage-greeting {
+        font-size: 80px;
+    }
+
+    .homepage-subgreeting {
+        font-size: 16px;
+        text-align: left;
+        margin-left: 40px;
+    }
+
+    .made-with-li {
+        font-size: 12px;
+    }
+
+    .made-with-title {
+        font-size: 14px;
+    }
+
+    .footer-content {
+        display: block;
+        left: 0px;
+        margin-left: 0;
+    }
+
+    .project-signature {
+        display: block;
+        left: 40px;
+        font-size: 14px;
+    }
+
+    .social-icons {
+        font-size: 1px;
+        margin-top: 10px;
+        padding-top: 10px;
+    }
+}

@@ -89,3 +89,38 @@
         margin-left: 20px;
     }
 }
+
+@media only screen and (max-width: 375px){
+    .nav-header {
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        justify-content: space-between;
+        display: flex;
+    }
+
+    .nav-header-container {
+        margin-right: 200px;
+    }
+
+    .nav-header-img {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    
+    .nav-header-breadcrumb {
+        margin-left: 0;
+        visibility: hidden;
+        max-width: 0;
+    }
+
+    .navLink {
+        font-size: 7px;
+        margin-left: 0;
+    }
+
+    .navLink:focus {
+        color: var(--dr-red3);
+    }
+}
