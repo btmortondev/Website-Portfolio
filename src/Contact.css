@@ -64,3 +64,29 @@
     font-size: 20px;
     height: 120px;
 }
+
+@media only screen and (max-width: 375px){
+    .page-title {
+        width: auto;
+        display: flex;
+        margin-left: 80px;
+    }
+
+    .contact-form {
+        margin-left: 80px;
+    }
+
+    .form-label {
+        font-size: 20px;
+    }
+
+    .form-input {
+        font-size: 16px;
+    }
+
+    .form-submit {
+        font-size: 12px;
+        width: 100px;
+        margin-left: 45px;
+    }
+}
