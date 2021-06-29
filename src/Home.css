@@ -81,7 +81,7 @@
     }
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 414px) {
     .homepage-greeting {
         font-size: 80px;
     }

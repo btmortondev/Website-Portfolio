@@ -55,7 +55,6 @@
 
 .navLink:hover{
     color: var(--dr-red3);
-    font-size: 22px;
 }
 
 @media only screen and (max-width: 768px){
@@ -90,7 +89,7 @@
     }
 }
 
-@media only screen and (max-width: 375px){
+@media only screen and (max-width: 414px){
     .nav-header {
         position: fixed;
         left: 0;
@@ -116,11 +115,25 @@
     }
 
     .navLink {
-        font-size: 7px;
+        font-size: 9px;
         margin-left: 0;
+    }
+
+    .navLink:active {
+        font-size: 9px;
+        color: var(--dr-red3);
+    }
+
+    .nav-header-li:active {
+        max-width: auto;
+        font-size: 10px;
     }
 
     .navLink:focus {
         color: var(--dr-red3);
+    }
+
+    .nav-header-ul {
+        padding-left: 0;
     }
 }

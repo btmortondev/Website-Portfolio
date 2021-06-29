@@ -123,3 +123,48 @@
     list-style: none;
     padding-right: 20px;
 }
+
+@media only screen and (max-width: 414px){
+    
+    .about-content {
+        width: 70%;
+        margin-left: 15%;
+    }
+
+    .about-title {
+        font-size: 30px;
+    }
+    
+    .about-contact-li {
+        font-size: 12px;
+    }
+
+    .about-description {
+        font-size: 12px;
+    }
+
+    .interests-title {
+        font-size: 20px;
+    }
+
+    .interests-li {
+        font-size: 10px;
+    }
+
+    .skills-title {
+        font-size: 20px;
+    }
+
+    .skills-li {
+        font-size: 10px;
+    }
+
+    .work-experience-title {
+        font-size: 20px;
+    }
+
+    .work-experience-li {
+        font-size: 10px;
+    }
+
+}

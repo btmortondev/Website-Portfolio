@@ -95,3 +95,21 @@
     display: block;
     margin-right: 2rem;
 }
+
+@media only screen and (max-width: 414px) {
+    .project-content {
+        margin-left: 10%;
+        width: 65%;
+        padding-bottom: 0;
+    }
+    
+    .project-item {
+        padding-bottom: 30px;
+    }
+
+    .project-list {
+        margin-bottom: 0;
+        margin-top: 0;
+        padding-left: 10px;
+    }
+}
