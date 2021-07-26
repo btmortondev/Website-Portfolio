@@ -9,7 +9,7 @@
 }
 
 .nav-header-breadcrumb {
-    color: var(--dr-grey);
+    color: var(--milkshake-lightblue);
     margin-left: 100px;
     font-size: 20px;
     font-weight: 700;
@@ -44,8 +44,10 @@
     justify-content: left;
 }
 
-.navLink {
-    color:white;
+/* Nav Link Styling */
+
+.navLink-home {
+    color: var(--milkshake-light);
     display: flex;
     align-items: center;
     transition: all 400ms ease-in-out;
@@ -53,8 +55,47 @@
     line-height: 1;
 }
 
-.navLink:hover{
-    color: var(--dr-red3);
+.navLink-projects {
+    color: var(--milkshake-light);
+    display: flex;
+    align-items: center;
+    transition: all 400ms ease-in-out;
+    font-size: 20px;
+    line-height: 1;
+}
+
+.navLink-about {
+    color: var(--milkshake-light);
+    display: flex;
+    align-items: center;
+    transition: all 400ms ease-in-out;
+    font-size: 20px;
+    line-height: 1;
+}
+
+.navLink-contact {
+    color: var(--milkshake-light);
+    display: flex;
+    align-items: center;
+    transition: all 400ms ease-in-out;
+    font-size: 20px;
+    line-height: 1;
+}
+
+.navLink-home:hover{
+    color: var(--milkshake-yellow);
+}
+
+.navLink-projects:hover{
+    color: var(--milkshake-green);
+}
+
+.navLink-about:hover{
+    color: var(--milkshake-purple);
+}
+
+.navLink-contact:hover{
+    color: var(--milkshake-red);
 }
 
 @media only screen and (max-width: 768px){

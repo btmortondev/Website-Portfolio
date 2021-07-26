@@ -43,15 +43,15 @@ const Contact = () => {
         <div className="page-content">
             <h1 className="page-title" >Contact Me</h1>
             <form className="contact-form" onSubmit= { handleSubmit } >
-                <label className="form-label">First Name: </label>
+                <label className="form-label-first">First Name: </label>
                 <input className="form-input" placeholder="first name" onChange={ (e) => setFirstName(e.target.value)} />
-                <label className="form-label" >Last Name: </label>
+                <label className="form-label-last" >Last Name: </label>
                 <input className="form-input"  placeholder="last name" onChange={ (e) => setLastName(e.target.value)} />
-                <label className="form-label" >Email: </label>
+                <label className="form-label-email" >Email: </label>
                 <input className="form-input" placeholder="example@gmail.com" onChange={ (e) => setEmail(e.target.value)} />
-                <label className="form-label" >Phone</label>
+                <label className="form-label-phone" >Phone</label>
                 <input className="form-input" placeholder="(123) 456-7890" onChange={ (e) => setPhone(e.target.value)} />
-                <label className="form-label" >Message</label>
+                <label className="form-label-message" >Message</label>
                 <textarea className="form-message" placeholder="message..." onChange={ (e) => setMessage(e.target.value)} />
                 <button type="submit" className="form-submit" style={{background: loader ? "var(--website-background)" : "none"}} >Submit</button>
             </form>

@@ -3,16 +3,9 @@
 }
 
 .homepage-greeting {
-    color: hsla(350, 93%, 61%, 1);
-
-    color: linear-gradient(90deg, hsla(350, 93%, 61%, 1) 0%, hsla(8, 98%, 59%, 1) 100%);
-
-    color: -moz-linear-gradient(90deg, hsla(350, 93%, 61%, 1) 0%, hsla(8, 98%, 59%, 1) 100%);
-
-    color: -webkit-linear-gradient(90deg, hsla(350, 93%, 61%, 1) 0%, hsla(8, 98%, 59%, 1) 100%);
-
-    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#F83D5C", endColorstr="#FD4B2F", GradientType=1 );
-
+   background: linear-gradient( to right, #f19dac 20%, #f6f4a0 30%, #73e4d0 40%, #62cfe6 50%, #ba96db 60%, #f19dac 70%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
     text-align: center;
     font-size: 240px;
     font-weight: 700;
@@ -22,7 +15,7 @@
 }
 
 .homepage-subgreeting {
-    color: var(--dr-grey);
+    color: var(--milkshake-light);
     text-align: center;
     font-size: 25px;
     padding-bottom: 25px;
@@ -35,7 +28,7 @@
 
 .made-with-title {
     margin-left: 40px;
-    color: white;
+    color: var(--milkshake-light);
 }
 
 .made-with-list {
@@ -43,26 +36,70 @@
 }
 
 .made-with-li {
-    color: var(--dr-red3);
+    color: var(--milkshake-lightblue);
 }
 
 .project-signature {
-    color: var(--dr-grey);
+    color: var(--milkshake-light);
     position: absolute;
     margin-right: 10px;
     display: inline-block;
     right: 0px;
 }
 
-.social-icons {
-    color: var(--dr-red3);
+.social-icons-twitter {
+    color: var(--milkshake-red);
     text-decoration: none;
     padding-right: 10px;
     transition: all 500ms ease-in-out;
 }
 
-.social-icons:hover {
-    color: white;
+.social-icons-yt {
+    color: var(--milkshake-yellow);
+    text-decoration: none;
+    padding-right: 10px;
+    transition: all 500ms ease-in-out;
+}
+
+.social-icons-insta {
+    color: var(--milkshake-green);
+    text-decoration: none;
+    padding-right: 10px;
+    transition: all 500ms ease-in-out;
+}
+
+.social-icons-git {
+    color: var(--milkshake-purple);
+    text-decoration: none;
+    padding-right: 10px;
+    transition: all 500ms ease-in-out;
+}
+
+.social-icons-linkedin {
+    color: var(--milkshake-lightblue);
+    text-decoration: none;
+    padding-right: 10px;
+    transition: all 500ms ease-in-out;
+}
+
+.social-icons-twitter:hover {
+    color: var(--milkshake-light);
+}
+
+.social-icons-yt:hover {
+    color: var(--milkshake-light);
+}
+
+.social-icons-insta:hover {
+    color: var(--milkshake-light);
+}
+
+.social-icons-git:hover {
+    color: var(--milkshake-light);
+}
+
+.social-icons-linkedin:hover {
+    color: var(--milkshake-light);
 }
 
 @media only screen and (max-width: 768px) {

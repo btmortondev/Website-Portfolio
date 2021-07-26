@@ -16,16 +16,16 @@ const Navbar = () => {
             <nav className="nav-header-container">
                 <ul className="nav-header-ul">
                     <li className="nav-header-li">
-                        <Link to="/" className="navLink">Home</Link>
+                        <Link to="/" className="navLink-home">Home</Link>
                     </li>
                     <li className="nav-header-li">
-                        <Link to="/work" className="navLink">Projects</Link>
+                        <Link to="/work" className="navLink-projects">Projects</Link>
                     </li>
                     <li className="nav-header-li">
-                        <Link to="/about" className="navLink">About Me</Link>
+                        <Link to="/about" className="navLink-about">About Me</Link>
                     </li>
                     <li className="nav-header-li">
-                        <Link to="/contact" className="navLink">Contact</Link>
+                        <Link to="/contact" className="navLink-contact">Contact</Link>
                     </li>
                 </ul>
             </nav>

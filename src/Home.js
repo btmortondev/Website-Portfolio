@@ -39,11 +39,11 @@ const Home = () => {
           </div>
           <p className="project-signature" > 
             Made by: Brandon Morton <br/>
-            <a href="https://twitter.com/btmortondev" target="_blank" rel="noreferrer" className="social-icons" > <TwitterIcon /> </a>
-            <a href="https://www.youtube.com/channel/UC1E6YyXqxDc6-u8pLJpcqWw/featured" target="_blank" rel="noreferrer" className="social-icons" > <YouTubeIcon /> </a>
-            <a href="https://www.instagram.com/btmortondev/" target="_blank" rel="noreferrer" className="social-icons" > <InstagramIcon /> </a>
-            <a href="https://github.com/btmortondev" target="_blank" rel="noreferrer" className="social-icons"> <GitHubIcon /> </a>
-            <a href="https://www.linkedin.com/in/brandon-morton-551508215/" target="_blank" rel="noreferrer" className="social-icons" > <LinkedInIcon /> </a>
+            <a href="https://twitter.com/btmortondev" target="_blank" rel="noreferrer" className="social-icons-twitter" > <TwitterIcon /> </a>
+            <a href="https://www.youtube.com/channel/UC1E6YyXqxDc6-u8pLJpcqWw/featured" target="_blank" rel="noreferrer" className="social-icons-yt" > <YouTubeIcon /> </a>
+            <a href="https://www.instagram.com/btmortondev/" target="_blank" rel="noreferrer" className="social-icons-insta" > <InstagramIcon /> </a>
+            <a href="https://github.com/btmortondev" target="_blank" rel="noreferrer" className="social-icons-git"> <GitHubIcon /> </a>
+            <a href="https://www.linkedin.com/in/brandon-morton-551508215/" target="_blank" rel="noreferrer" className="social-icons-linkedin" > <LinkedInIcon /> </a>
           </p>
         </div>
       );

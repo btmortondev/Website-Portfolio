@@ -4,7 +4,7 @@
 
 .page-title {
     margin-left: 46.5%;
-    color: var(--dr-red3);
+    color: var(--milkshake-lightblue);
 }
 
 .contact-form {
@@ -20,30 +20,51 @@
 }
 
 .contact-form:hover {
-    border: white solid 5px;
+    border: var(--milkshake-light) solid 5px;
 }
 
-.form-label {
-    color: var(--dr-red2);
+.form-label-first {
+    color: var(--milkshake-red);
+    font-size: 24px;
+}
+
+.form-label-last {
+    color: var(--milkshake-yellow);
+    font-size: 24px;
+}
+
+.form-label-email {
+    color: var(--milkshake-green);
+    font-size: 24px;
+}
+
+.form-label-phone {
+    color: var(--milkshake-lightblue);
+    font-size: 24px;
+}
+
+.form-label-message {
+    color: var(--milkshake-purple);
     font-size: 24px;
 }
 
 .form-input {
-    color: white;
-    border-color: var(--dr-red1);
+    color: var(--milkshake-light);
+    border-color: var(--milkshake-light);
     border-radius: 25% 10%;
     border-width: 5px;
     font-size: 20px;
 }
 
 ::placeholder {
-    color: var(--dr-grey);
+    color: var(--milkshake-light);
+    opacity: .7;
 }
 
 .form-submit {
-    color: white;
+    color: var(--milkshake-red);
     font-size: 18px;
-    border-color: var(--dr-red1);
+    border-color: var(--milkshake-light);
     border-radius: 10px;
     border-width: 5px;
     margin-top: 20px;
@@ -54,11 +75,12 @@
 
 .form-submit:hover {
     transform: scale(1.05);
+    color: var(--milkshake-green)
 }
 
 .form-message {
-    color: white;
-    border-color: var(--dr-red1);
+    color: var(--milkshake-light);
+    border-color: var(--milkshake-light);
     border-width: 3px;
     border-radius: 10px;
     font-size: 20px;

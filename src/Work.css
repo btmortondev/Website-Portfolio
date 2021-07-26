@@ -8,13 +8,13 @@
     justify-content: center;
     width: 50%;
     margin-left: 25%;
-    border: var(--dr-grey) solid 5px;
+    border: var(--milkshake-light) solid 5px;
     border-radius: 10px;
     padding: 30px;
 }
 
 .project-content:hover {
-    border-color: white;
+    border-color: var(--milkshake-lightblue);
 }
 
 .project-list {
@@ -29,12 +29,12 @@
 }
 
 .project-title {
-    color: var(--dr-red3);
+    color: var(--milkshake-red);
     margin-bottom: 10px;
 }
 
 .project-type {
-    color: var(--dr-red3);
+    color: var(--milkshake-red);
     margin-top: 0;
 }
 
@@ -49,17 +49,17 @@
 }
 
 .project-item:hover .project-purpose {
-    color: var(--dr-red3);
+    color: var(--milkshake-green);
     text-decoration: underline;
 }
 
 .project-item:hover .project-title, .project-item:hover .project-type {
-    color: white;
+    color: var(--milkshake-light);
     text-decoration: underline;
 }
 
 .project-purpose {
-    color: white;
+    color: var(--milkshake-light);
 }
 
 .game-logo {

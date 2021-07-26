@@ -26,9 +26,18 @@
     --dr-red1: #6F2232;
     --dr-red2: #950740;
     --dr-red3: #C3073F;
+
+    /* Milkshake Theme */
+    --milkshake-light: #FFFFFF;
+    --milkshake-dark: #212B43;
+    --milkshake-lightblue: #62CFE6;
+    --milkshake-red: #F19DAC;
+    --milkshake-yellow: #F6F4A0;
+    --milkshake-green: #73E4D0;
+    --milkshake-purple: #BA96DB;
 }
 
 * {
-    background-color: var(--dr-background);
+    background-color: var(--milkshake-dark);
     font-family: 'Roboto Mono';
 }

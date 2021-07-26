@@ -8,7 +8,7 @@
 }
 
 .about-title {
-    color: var(--dr-red3);
+    color: var(--milkshake-lightblue);
     font-size: 40px;
 }
 
@@ -28,35 +28,35 @@
 }
 
 .about-contact-li {
-    color: white;
+    color: var(--milkshake-light);
     font-size: 20px;
 }
 
 .github-link {
     padding-right: 10px;
-    color: var(--dr-red3);
+    color: var(--milkshake-light);
     transition: all 500ms ease-in-out;
 }
 
 .github-link:hover {
-    color: white;
+    color: var(--milkshake-purple);
 }
 
 .linkedin-link {
     padding-right: 10px;
-    color: var(--dr-red3);
+    color: var(--milkshake-light);
     transition: all 500ms ease-in-out;
 }
 
 .linkedin-link:hover {
-    color: white;
+    color: var(--milkshake-lightblue);
 }
 
 
 /* Content for Resume Download Link */
 .about-description {
     margin-left: 40px;
-    color: var(--dr-red3)
+    color: var(--milkshake-lightblue)
 }
 
 .resume-link:visited {
@@ -64,25 +64,25 @@
 }
 
 .resume-download-icon {
-    color: var(--dr-red3);
+    color: var(--milkshake-light);
     transition: all 500ms ease-in-out;
     padding-left: 5px;
 }
 
 .resume-download-icon:hover {
-    color: white;
+    color: var(--milkshake-red);
 }
 
 
 /* Interests Portion of About Page */
 .interests-title {
-    color: var(--dr-red3);
+    color: var(--milkshake-light);
     margin-left: 40px;
 }
 
 .interests-li {
     list-style: none;
-    color: white;
+    color: var(--milkshake-purple);
     padding-right: 20px;
 }
 
@@ -93,7 +93,7 @@
 
 /* Skills Portion on About Page */
 .skills-title {
-    color: var(--dr-red3);
+    color: var(--milkshake-light);
     margin-left: 40px;
 }
 
@@ -102,7 +102,7 @@
 }
 
 .skills-li {
-    color: white;
+    color: var(--milkshake-yellow);
     list-style: none;
     padding-right: 20px;
 }
@@ -110,7 +110,7 @@
 
 /* Content for Work Experience Section */
 .work-experience-title {
-    color: var(--dr-red3);
+    color: var(--milkshake-light);
     margin-left: 40px;
 }
 
@@ -119,7 +119,7 @@
 }
 
 .work-experience-li {
-    color: white;
+    color: var(--milkshake-green);
     list-style: none;
     padding-right: 20px;
 }
