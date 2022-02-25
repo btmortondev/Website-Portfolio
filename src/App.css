@@ -1,43 +1,30 @@
-@import url('https://fonts.googleapis.com/css2?family=Aldrich&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Aldrich&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
 
 :root {
-    /* Animation Speed */
-    --animspeed: 500ms;
+  /* Animation Speed */
+  --animspeed: 500ms;
 
-    /* Peach Theme Colors */
-    --website-background: #6D6875;
-    --website-color-1: #B5838D;
-    --website-color-2: #E5989B;
-    --website-color-3: #FFB4A2;
-    --website-color-4: #FFCDB2;
-    
-    /* American Popsicle Theme Colors */
-    --amerpop-red: #E63946;
-    --amerpop-light: #F1FAEE;
-    --amerpop-blue1: #A8DADC;
-    --amerpop-blue2: #457B9D;
-    --amerpop-background: #1D3557;
+  /* Main Theme 2022*/
+  --theme-background: #ffffff;
+  --theme-mainAccent: #ba96db;
+  --theme-black: #000000;
+  --theme-darkgrey: #6c757d;
+  --theme-lightgrey: #ced4da;
+  --theme-hovercolor: #e9ecef;
 
-    /* Dark Red Theme */
-    --dr-background: #1A1A1D;
-    --dr-grey: #4E4E50;
-    --dr-red1: #6F2232;
-    --dr-red2: #950740;
-    --dr-red3: #C3073F;
-
-    /* Milkshake Theme */
-    --milkshake-light: #FFFFFF;
-    --milkshake-dark: #212B43;
-    --milkshake-lightblue: #62CFE6;
-    --milkshake-red: #F19DAC;
-    --milkshake-yellow: #F6F4A0;
-    --milkshake-green: #73E4D0;
-    --milkshake-purple: #BA96DB;
+  /* Milkshake Theme */
+  --milkshake-light: #ffffff;
+  --milkshake-dark: #212b43;
+  --milkshake-lightblue: #62cfe6;
+  --milkshake-red: #f19dac;
+  --milkshake-yellow: #f6f4a0;
+  --milkshake-green: #73e4d0;
+  --milkshake-purple: #ba96db;
 }
 
 * {
-    background-color: var(--milkshake-dark);
-    font-family: 'Roboto Mono';
+  background-color: var(--theme-background);
+  font-family: "Roboto Mono";
 }

@@ -1,191 +1,38 @@
+* {
+  box-sizing: border-box;
+}
 .nav-header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    justify-content: space-between;
-    margin: auto;
-    display: flex;
-    flex-wrap: nowrap;
-    flex-direction: row;
-}
-
-.nav-header-breadcrumb {
-    color: var(--milkshake-lightblue);
-    margin-left: 100px;
-    font-size: 20px;
-    font-weight: 700;
-    display: flex;
-    align-items: center;
-}
-
-.nav-header-breadcrumb p {
-    margin-bottom: 0;
-    padding-bottom: 0;
-}
-
-.nav-header-container ul {
-    margin-bottom: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 10%;
+  height: 100%;
+  display: block;
+  /*border: 1px solid white;*/
 }
 
 .nav-header-container {
-    display: flex;
-    align-items: center;
-    align-content: flex-end;
-    margin-right: 100px;
-}
-
-.nav-header-img {
-    display: flex;
-    align-items: center;
-    margin-left: 280px;
-}
-
-.nav-header-ul {
-    display: flex;
-    list-style: none;
-    align-items: center;
-    justify-content: left;
-}
-
-.nav-header-li {
-    flex: 0 0 auto;
-    margin-left: 1rem;
-    list-style: none;
-    justify-content: left;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  column-gap: 0px;
 }
 
 /* Nav Link Styling */
 
-.navLink-home {
-    color: var(--milkshake-light);
-    display: flex;
-    align-items: center;
-    transition: all 400ms ease-in-out;
-    font-size: 20px;
-    line-height: 1;
+.navLink {
+  color: var(--theme-black);
+  transform: rotate(-90deg);
+  text-decoration: none;
 }
 
-.navLink-projects {
-    color: var(--milkshake-light);
-    display: flex;
-    align-items: center;
-    transition: all 400ms ease-in-out;
-    font-size: 20px;
-    line-height: 1;
-}
-
-.navLink-about {
-    color: var(--milkshake-light);
-    display: flex;
-    align-items: center;
-    transition: all 400ms ease-in-out;
-    font-size: 20px;
-    line-height: 1;
-}
-
-.navLink-contact {
-    color: var(--milkshake-light);
-    display: flex;
-    align-items: center;
-    transition: all 400ms ease-in-out;
-    font-size: 20px;
-    line-height: 1;
-}
-
-.navLink-home:hover{
-    color: var(--milkshake-yellow);
-}
-
-.navLink-projects:hover{
-    color: var(--milkshake-green);
-}
-
-.navLink-about:hover{
-    color: var(--milkshake-purple);
-}
-
-.navLink-contact:hover{
-    color: var(--milkshake-red);
-}
-
-@media only screen and (max-width: 768px){
-    .nav-header {
-        position: fixed;
-        left: 0;
-        top: 0;
-        width: 100%;
-        justify-content: space-between;
-        display: flex;
-    }
-
-    .nav-header-breadcrumb {
-        margin-left: 10px;
-        visibility: hidden;
-    }
-
-    .nav-header-container {
-        margin-right: 200px;
-    }
-
-    .navLink {
-        font-size: 18px;
-    }
-
-    .navLink:hover {
-        font-size: 20px;
-    }
-
-    .nav-header-img {
-        margin-left: 20px;
-    }
-}
-
-@media only screen and (max-width: 414px){
-    .nav-header {
-        position: fixed;
-        left: 0;
-        top: 0;
-        width: 100%;
-        justify-content: space-between;
-        display: flex;
-    }
-
-    .nav-header-container {
-        margin-right: 200px;
-    }
-
-    .nav-header-img {
-        margin-left: 0;
-        margin-right: 0;
-    }
-    
-    .nav-header-breadcrumb {
-        margin-left: 0;
-        visibility: hidden;
-        max-width: 0;
-    }
-
-    .navLink {
-        font-size: 9px;
-        margin-left: 0;
-    }
-
-    .navLink:active {
-        font-size: 9px;
-        color: var(--dr-red3);
-    }
-
-    .nav-header-li:active {
-        max-width: auto;
-        font-size: 10px;
-    }
-
-    .navLink:focus {
-        color: var(--dr-red3);
-    }
-
-    .nav-header-ul {
-        padding-left: 0;
-    }
+.navLink:hover {
+  background-color: var(--theme-hovercolor);
+  border-radius: 4px;
 }

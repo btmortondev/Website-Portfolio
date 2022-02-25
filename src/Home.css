@@ -1,157 +1,81 @@
-.home-content {
-    padding-top: 100px;   
+@import url("https://fonts.googleapis.com/css2?family=Pirata+One&display=swap");
+.greeting-content {
+  /*border: 6px solid red;*/
+  position: absolute;
+  left: 10vw;
+  height: 100vh;
+  width: 50%;
+  background-color: var(--theme-background);
+}
+
+.picture-content {
+  position: absolute;
+  left: 50vw;
+  height: 100vh;
+  width: 70%;
+}
+
+.introBox {
+  position: absolute;
+  background-color: transparent;
+  left: 5vw;
+  top: 20vh;
+  border: 1px solid white;
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 
 .homepage-greeting {
-   background: linear-gradient( to right, #f19dac 20%, #f6f4a0 30%, #73e4d0 40%, #62cfe6 50%, #ba96db 60%, #f19dac 70%);
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    text-align: center;
-    font-size: 240px;
-    font-weight: 700;
-    padding-bottom: 0;
-    margin-bottom: 0;
+  color: var(--theme-black);
+  background-color: transparent;
+  border: 1px solid white;
+  font-size: 28px;
+  margin: 0;
+}
 
+.nameBanner {
+  color: var(--theme-black);
+  background-color: transparent;
+  border: 1px solid white;
+  font-size: 45px;
+}
+
+.roleBanner {
+  color: var(--theme-black);
+  background-color: transparent;
+  font-size: 28px;
+  border: 1px solid white;
+  margin: 0;
 }
 
 .homepage-subgreeting {
-    color: var(--milkshake-light);
-    text-align: center;
-    font-size: 25px;
-    padding-bottom: 25px;
+  position: absolute;
+  left: 5vw;
+  top: 55vh;
+  margin-right: 10vw;
+  width: auto;
+  background-color: transparent;
+  border: 1px solid white;
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 
-.footer-content {
-    margin-left: 10px;
-    display: inline-block;
+.homepage-summary {
+  color: var(--theme-black);
+  background-color: transparent;
 }
 
-.made-with-title {
-    margin-left: 40px;
-    color: var(--milkshake-light);
-}
-
-.made-with-list {
-    list-style: none;
-}
-
-.made-with-li {
-    color: var(--milkshake-lightblue);
-}
-
-.project-signature {
-    color: var(--milkshake-light);
-    position: absolute;
-    margin-right: 10px;
-    display: inline-block;
-    right: 0px;
-}
-
-.social-icons-twitter {
-    color: var(--milkshake-red);
-    text-decoration: none;
-    padding-right: 10px;
-    transition: all 500ms ease-in-out;
-}
-
-.social-icons-yt {
-    color: var(--milkshake-yellow);
-    text-decoration: none;
-    padding-right: 10px;
-    transition: all 500ms ease-in-out;
-}
-
-.social-icons-insta {
-    color: var(--milkshake-green);
-    text-decoration: none;
-    padding-right: 10px;
-    transition: all 500ms ease-in-out;
-}
-
-.social-icons-git {
-    color: var(--milkshake-purple);
-    text-decoration: none;
-    padding-right: 10px;
-    transition: all 500ms ease-in-out;
-}
-
-.social-icons-linkedin {
-    color: var(--milkshake-lightblue);
-    text-decoration: none;
-    padding-right: 10px;
-    transition: all 500ms ease-in-out;
-}
-
-.social-icons-twitter:hover {
-    color: var(--milkshake-light);
-}
-
-.social-icons-yt:hover {
-    color: var(--milkshake-light);
-}
-
-.social-icons-insta:hover {
-    color: var(--milkshake-light);
-}
-
-.social-icons-git:hover {
-    color: var(--milkshake-light);
-}
-
-.social-icons-linkedin:hover {
-    color: var(--milkshake-light);
-}
-
-@media only screen and (max-width: 768px) {
-    .home-content {
-        padding-top: 0;
-    }
-
-    .homepage-greeting {
-        padding-top: 0;
-        margin-top: 80px;
-        font-size: 150px;
-    }
-
-    .homepage-subgreeting {
-        font-size: 20px;
-    }
-}
-
-@media only screen and (max-width: 414px) {
-    .homepage-greeting {
-        font-size: 80px;
-    }
-
-    .homepage-subgreeting {
-        font-size: 16px;
-        text-align: left;
-        margin-left: 40px;
-    }
-
-    .made-with-li {
-        font-size: 12px;
-    }
-
-    .made-with-title {
-        font-size: 14px;
-    }
-
-    .footer-content {
-        display: block;
-        left: 0px;
-        margin-left: 0;
-    }
-
-    .project-signature {
-        display: block;
-        left: 40px;
-        font-size: 14px;
-    }
-
-    .social-icons {
-        font-size: 1px;
-        margin-top: 10px;
-        padding-top: 10px;
-    }
+.slide-container {
+  position: absolute;
+  left: 5vw;
+  top: 70vh;
+  border: 1px solid var(--theme-black);
+  width: 80%;
+  height: 25%;
 }

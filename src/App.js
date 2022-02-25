@@ -1,36 +1,36 @@
-import './App.css';
-import Navbar from './Navbar';
-import Home from './Home';
-import Work from './Work';
-import About from './About';
-import Contact from './Contact';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-
+import "./App.css";
+import Navbar from "./Navbar";
+import Socialbar from "./Socialbar";
+import Home from "./Home";
+import Work from "./Work";
+import About from "./About";
+import Contact from "./Contact";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 function App() {
-   
   return (
     <Router>
       <div className="App">
-      <Navbar />
-      <div>
+        <Navbar />
+        <Socialbar />
+        <div>
           <Switch>
-            <Route exact path= "/">
+            <Route exact path="/">
               <Home />
             </Route>
-            <Route path= "/work">
+            <Route path="/work">
               <Work />
             </Route>
-            <Route path= "/about">
+            <Route path="/about">
               <About />
             </Route>
-            <Route path= "/contact">
+            <Route path="/contact">
               <Contact />
             </Route>
           </Switch>
+        </div>
       </div>
-    </div>
-    </Router> 
+    </Router>
   );
 }
 
