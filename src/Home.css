@@ -20,7 +20,7 @@
   background-color: transparent;
   left: 5vw;
   top: 20vh;
-  border: 1px solid white;
+  /*border: 1px solid white;*/
   width: auto;
   height: auto;
   display: flex;
@@ -31,7 +31,7 @@
 .homepage-greeting {
   color: var(--theme-black);
   background-color: transparent;
-  border: 1px solid white;
+  /*border: 1px solid white;*/
   font-size: 28px;
   margin: 0;
 }
@@ -39,7 +39,7 @@
 .nameBanner {
   color: var(--theme-black);
   background-color: transparent;
-  border: 1px solid white;
+  /*border: 1px solid white;*/
   font-size: 45px;
 }
 
@@ -47,7 +47,7 @@
   color: var(--theme-black);
   background-color: transparent;
   font-size: 28px;
-  border: 1px solid white;
+  /*border: 1px solid white;*/
   margin: 0;
 }
 
@@ -58,7 +58,7 @@
   margin-right: 10vw;
   width: auto;
   background-color: transparent;
-  border: 1px solid white;
+  /*border: 1px solid white;*/
   width: auto;
   height: auto;
   display: flex;

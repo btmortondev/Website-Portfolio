@@ -1,114 +1,106 @@
 .page-content {
-    padding-top: 100px;   
+  margin-top: 10%;
+  margin-left: 25%;
 }
 
 .page-title {
-    margin-left: 46.5%;
-    color: var(--milkshake-lightblue);
+  color: var(--theme-black);
 }
 
 .contact-form {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 50%;
-    margin-left: 25%;
-    border: var(--dr-grey) solid 5px;
-    border-radius: 10px;
-    padding: 30px;
-    transition: all 500ms ease-in-out;
-}
-
-.contact-form:hover {
-    border: var(--milkshake-light) solid 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+  border-radius: 10px;
+  padding: 30px;
 }
 
 .form-label-first {
-    color: var(--milkshake-red);
-    font-size: 24px;
+  color: var(--theme-black);
+  font-size: 24px;
 }
 
 .form-label-last {
-    color: var(--milkshake-yellow);
-    font-size: 24px;
+  color: var(--theme-black);
+  font-size: 24px;
 }
 
 .form-label-email {
-    color: var(--milkshake-green);
-    font-size: 24px;
+  color: var(--theme-black);
+  font-size: 24px;
 }
 
 .form-label-phone {
-    color: var(--milkshake-lightblue);
-    font-size: 24px;
+  color: var(--theme-black);
+  font-size: 24px;
 }
 
 .form-label-message {
-    color: var(--milkshake-purple);
-    font-size: 24px;
+  color: var(--theme-black);
+  font-size: 24px;
 }
 
 .form-input {
-    color: var(--milkshake-light);
-    border-color: var(--milkshake-light);
-    border-radius: 25% 10%;
-    border-width: 5px;
-    font-size: 20px;
+  color: var(--theme-background);
+  border-color: var(--theme-darkgrey);
+  border-radius: 25% 10%;
+  border-width: 5px;
+  font-size: 20px;
 }
 
 ::placeholder {
-    color: var(--milkshake-light);
-    opacity: .7;
+  color: var(--theme-lightgrey);
 }
 
 .form-submit {
-    color: var(--milkshake-red);
-    font-size: 18px;
-    border-color: var(--milkshake-light);
-    border-radius: 10px;
-    border-width: 5px;
-    margin-top: 20px;
-    width: 25%;
-    margin-left: 37.5%;
-    transition: all 400ms ease-in-out;
+  color: var(--theme-black);
+  font-size: 18px;
+  border-color: var(--theme-lightgrey);
+  border-radius: 10px;
+  border-width: 5px;
+  margin-top: 20px;
+  width: 25%;
+  margin-left: 37.5%;
+  transition: all 400ms ease-in-out;
 }
 
 .form-submit:hover {
-    transform: scale(1.05);
-    color: var(--milkshake-green)
+  transform: scale(1.05);
+  color: var(--milkshake-green);
 }
 
 .form-message {
-    color: var(--milkshake-light);
-    border-color: var(--milkshake-light);
-    border-width: 3px;
-    border-radius: 10px;
-    font-size: 20px;
-    height: 120px;
+  color: var(--theme-darkgrey);
+  border-color: var(--theme-black);
+  border-width: 3px;
+  border-radius: 10px;
+  font-size: 20px;
+  height: 120px;
 }
 
-@media only screen and (max-width: 414px){
-    .page-title {
-        width: auto;
-        display: flex;
-        margin-left: 80px;
-    }
+@media only screen and (max-width: 414px) {
+  .page-title {
+    width: auto;
+    display: flex;
+    margin-left: 80px;
+  }
 
-    .contact-form {
-        margin-left: 80px;
-    }
+  .contact-form {
+    margin-left: 80px;
+  }
 
-    .form-label {
-        font-size: 20px;
-    }
+  .form-label {
+    font-size: 20px;
+  }
 
-    .form-input {
-        font-size: 16px;
-    }
+  .form-input {
+    font-size: 16px;
+  }
 
-    .form-submit {
-        font-size: 12px;
-        width: 100px;
-        margin-left: 45px;
-    }
+  .form-submit {
+    font-size: 12px;
+    width: 100px;
+    margin-left: 45px;
+  }
 }

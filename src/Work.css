@@ -1,109 +1,110 @@
 .page-content {
-    padding-top: 100px;   
+  margin-left: 25%;
 }
 
 .project-content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 50%;
-    border-radius: 10px;
-    padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+  border-radius: 10px;
+  padding: 30px;
 }
 
 .project-list {
-    list-style: none;
-    text-decoration: none;
+  list-style: none;
+  text-decoration: none;
 }
 
 .project-link {
-    text-decoration: none;
-    display: flex;
-    align-items: center;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
 }
 
 .project-title {
-    color: var(--milkshake-red);
-    margin-bottom: 10px;
+  color: var(--theme-black);
+  margin-bottom: 10px;
 }
 
 .project-type {
-    color: var(--milkshake-red);
-    margin-top: 0;
+  color: var(--theme-black);
+  margin-top: 0;
 }
 
 .project-item {
-    padding-bottom: 60px;
-    transition: all 200ms ease-in-out;
+  padding-bottom: 60px;
+  transition: all 200ms ease-in-out;
 }
 
 .project-item:hover {
-    font-size: 20px;
-    border-radius: 5px;
+  font-size: 20px;
+  border-radius: 5px;
 }
 
 .project-item:hover .project-purpose {
-    color: var(--milkshake-green);
-    text-decoration: underline;
+  color: var(--theme-darkgrey);
+  text-decoration: underline;
 }
 
-.project-item:hover .project-title, .project-item:hover .project-type {
-    color: var(--milkshake-light);
-    text-decoration: underline;
+.project-item:hover .project-title,
+.project-item:hover .project-type {
+  color: var(--theme-darkgrey);
+  text-decoration: underline;
 }
 
 .project-purpose {
-    color: var(--milkshake-light);
+  color: var(--theme-black);
 }
 
 .game-logo {
-    height: 80px;
-    width: 80px;
-    flex: 0 0 auto;
-    display: block;
-    margin-right: 2rem;
+  height: 80px;
+  width: 80px;
+  flex: 0 0 auto;
+  display: block;
+  margin-right: 2rem;
 }
 
 .crypto-icons {
-    height: 80px;
-    width: 80px;
-    border-radius: 50%;
-    flex: 0 0 auto;
-    display: block;
-    margin-right: 2rem;
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  flex: 0 0 auto;
+  display: block;
+  margin-right: 2rem;
 }
 
 .datcord-logo {
-    height: 80px;
-    width: 80px;
-    flex: 0 0 auto;
-    display: block;
-    margin-right: 2rem;
+  height: 80px;
+  width: 80px;
+  flex: 0 0 auto;
+  display: block;
+  margin-right: 2rem;
 }
 
 .pathfind-logo {
-    height: 80px;
-    width: 80px;
-    border-radius: 50%;
-    flex: 0 0 auto;
-    display: block;
-    margin-right: 2rem;
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  flex: 0 0 auto;
+  display: block;
+  margin-right: 2rem;
 }
 
 @media only screen and (max-width: 414px) {
-    .project-content {
-        margin-left: 10%;
-        width: 65%;
-        padding-bottom: 0;
-    }
-    
-    .project-item {
-        padding-bottom: 30px;
-    }
+  .project-content {
+    margin-left: 10%;
+    width: 65%;
+    padding-bottom: 0;
+  }
 
-    .project-list {
-        margin-bottom: 0;
-        margin-top: 0;
-        padding-left: 10px;
-    }
+  .project-item {
+    padding-bottom: 30px;
+  }
+
+  .project-list {
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-left: 10px;
+  }
 }
