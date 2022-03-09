@@ -1,4 +1,5 @@
 import "./Work.css";
+import GitHubIcon from "@material-ui/icons/GitHub";
 import GameLogo from "./img/FlamingSword.gif";
 import CryptoIcons from "./img/cryptoicons.png";
 import DatcordLogo from "./img/datcord.png";
@@ -7,7 +8,70 @@ import TicTacToeLogo from "./img/tictactoe.png";
 
 const Work = () => {
   return (
-    <div className="page-content">
+    <div className="work-content">
+      <div className="title-container">
+        <p className="work-title"> Some Things I've Built </p>
+      </div>
+      <section className="project-section">
+        <div className="project-image-odd"></div>
+        <div className="project-information-odd">
+          <p className="project-team-odd"> Personal Project </p>
+          <p className="project-name-odd">Name of first project</p>
+          <p className="project-description-odd">
+            {" "}
+            This is the decription of the project. In this section I will give
+            brief descriptions on what the project is. Also, why I built it.
+          </p>
+          <ul className="project-tools-list-odd">
+            <li className="project-tools-odd"> Tool 1 </li>
+            <li className="project-tools-odd"> Tool 2 </li>
+            <li className="project-tools-odd"> Tool 3 </li>
+            <li className="project-tools-odd"> Tool 4 </li>
+          </ul>
+          <div className="project-links-odd">
+            <a
+              href="https://github.com/btmortondev"
+              target="_blank"
+              rel="noreferrer"
+              className="github-icon-odd"
+            >
+              {" "}
+              <GitHubIcon />{" "}
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section className="project-section">
+        <div className="project-information-even">
+          <p className="project-team-even"> Personal Project </p>
+          <p className="project-name-even">Name of first project</p>
+          <p className="project-description-even">
+            {" "}
+            This is the decription of the project. In this section I will give
+            brief descriptions on what the project is. Also, why I built it.
+          </p>
+          <ul className="project-tools-list-even">
+            <li className="project-tools-even"> Tool 1 </li>
+            <li className="project-tools-even"> Tool 2 </li>
+            <li className="project-tools-even"> Tool 3 </li>
+            <li className="project-tools-even"> Tool 4 </li>
+          </ul>
+          <div className="project-links-even">
+            <a
+              href="https://github.com/btmortondev"
+              target="_blank"
+              rel="noreferrer"
+              className="github-icon-even"
+            >
+              {" "}
+              <GitHubIcon />{" "}
+            </a>
+          </div>
+        </div>
+        <div className="project-image-even"></div>
+      </section>
+
       <div className="project-content">
         <ul className="project-list">
           <li className="project-item">
