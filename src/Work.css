@@ -153,10 +153,104 @@
   height: 100%;
   width: 100%;
   border-radius: 6px;
+  filter: grayscale(100%);
+  transition: 500ms all ease-in-out;
+}
+
+.crypto-img:hover {
+  filter: none;
 }
 
 .vid-container {
   height: 100%;
   width: 100%;
   border-radius: 6px;
+}
+
+.other-project-container {
+  height: 40vh;
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.other-projects-title {
+  width: 100%;
+  text-align: center;
+}
+
+.other-projects {
+  height: 30vh;
+  width: 15vw;
+  border: 1px solid black;
+  margin-bottom: 30px;
+  position: relative;
+  transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.other-projects:hover {
+  top: -10px;
+}
+
+.oproject-top-container {
+  border: 1px solid blue;
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.folder-icon-container {
+  color: var(--theme-black);
+  border: 1px solid red;
+  width: fit-content;
+}
+
+.openwith-icon-container {
+  color: var(--theme-black);
+  border: 1px solid red;
+  width: fit-content;
+}
+
+.oproject-title-container {
+  border: 1px solid blue;
+  width: 100%;
+}
+
+.oproject-title {
+  color: var(--theme-black);
+}
+
+.oproject-description-container {
+  border: 1px solid blue;
+  width: 100%;
+}
+
+.oproject-description {
+  color: var(--theme-darkgrey);
+}
+
+.oproject-tools-container {
+  border: 1px solid blue;
+  width: 100%;
+}
+
+.oproject-tools-list {
+  border: 1px solid blue;
+  list-style: none;
+  display: flex;
+  flex-wrap: none;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.oproject-tool {
+  font-size: 10px;
+  margin-right: 10px;
+  color: var(--theme-mainAccent);
 }

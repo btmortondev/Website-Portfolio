@@ -1,5 +1,5 @@
 import "./Home.css";
-/*import CodeIcon from "@material-ui/icons/Code";*/
+import SelfieImage from "./img/bmorton21hs.jpg";
 
 const Home = () => {
   return (
@@ -20,7 +20,13 @@ const Home = () => {
       </div>
 
       <div className="picture-content">
-        <div className="slide-container"></div>
+        <div className="slide-container">
+          <img
+            className="image-container"
+            src={SelfieImage}
+            alt="selfie for slide"
+          />
+        </div>
       </div>
     </div>
   );

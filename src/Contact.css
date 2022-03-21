@@ -5,7 +5,6 @@
 
 .page-title {
   color: var(--theme-black);
-  border: 1px solid black;
   width: fit-content;
   margin-left: 15%;
 }

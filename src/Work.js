@@ -1,6 +1,8 @@
 import "./Work.css";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import CryptoProject from "./img/workimg/cryptoapi.png";
+import FolderOutlined from "@material-ui/icons/FolderOpenOutlined";
+import OpenInNewOutlined from "@material-ui/icons/OpenInNewOutlined";
 
 const Work = () => {
   return (
@@ -80,6 +82,38 @@ const Work = () => {
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen
           ></iframe>
+        </div>
+      </section>
+      <p className="other-projects-title">Other Projects</p>
+      <section className="project-section">
+        <div className="other-project-container">
+          <div className="other-projects">
+            <div className="oproject-top-container">
+              <div className="folder-icon-container">
+                {" "}
+                <FolderOutlined />{" "}
+              </div>
+              <div className="openwith-icon-container">
+                {" "}
+                <OpenInNewOutlined />{" "}
+              </div>
+            </div>
+            <div className="oproject-title-container">
+              <p className="oproject-title"> Other Project Title </p>
+            </div>
+            <div className="oproject-description-container">
+              <p className="oproject-description">
+                {" "}
+                This is where the description for the project will go. Should
+                only be one or two sentences.
+              </p>
+            </div>
+            <ul className="oproject-tools-list">
+              <li className="oproject-tool"> VS Code </li>
+              <li className="oproject-tool"> Material UI </li>
+              <li className="oproject-tool"> Firebase </li>
+            </ul>
+          </div>
         </div>
       </section>
     </div>

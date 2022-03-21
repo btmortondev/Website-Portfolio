@@ -75,7 +75,19 @@
   position: absolute;
   left: 5vw;
   top: 70vh;
-  border: 1px solid var(--theme-black);
-  width: 80%;
+  width: 60%;
   height: 25%;
+}
+
+.slide-container {
+  overflow: hidden;
+}
+
+.image-container {
+  filter: grayscale(100%);
+  transition: all 500ms ease-in-out;
+}
+
+.image-container:hover {
+  filter: none;
 }
