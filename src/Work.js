@@ -90,8 +90,14 @@ const Work = () => {
           <div className="other-projects">
             <div className="oproject-top-container">
               <div className="folder-icon-container">
-                {" "}
-                <FolderOutlined />{" "}
+                <a
+                  href="https://github.com/btmortondev"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  {" "}
+                  <FolderOutlined />{" "}
+                </a>
               </div>
               <div className="openwith-icon-container">
                 {" "}
@@ -99,19 +105,123 @@ const Work = () => {
               </div>
             </div>
             <div className="oproject-title-container">
-              <p className="oproject-title"> Other Project Title </p>
+              <p className="oproject-title"> 2D Unity Project </p>
             </div>
             <div className="oproject-description-container">
               <p className="oproject-description">
                 {" "}
-                This is where the description for the project will go. Should
-                only be one or two sentences.
+                One of my senior projects from college. Simple Unity 2D game
+                that focused on scripting objects and desgining AI.
+              </p>
+            </div>
+            <ul className="oproject-tools-list">
+              <li className="oproject-tool"> Visual Studio </li>
+              <li className="oproject-tool"> Aesprite </li>
+              <li className="oproject-tool"> Unity </li>
+            </ul>
+          </div>
+
+          <div className="other-projects">
+            <div className="oproject-top-container">
+              <div className="folder-icon-container">
+                <a
+                  href="https://github.com/btmortondev"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  {" "}
+                  <FolderOutlined />{" "}
+                </a>
+              </div>
+              <div className="openwith-icon-container">
+                {" "}
+                <OpenInNewOutlined />{" "}
+              </div>
+            </div>
+            <div className="oproject-title-container">
+              <p className="oproject-title"> Theme Selector </p>
+            </div>
+            <div className="oproject-description-container">
+              <p className="oproject-description">
+                {" "}
+                Simple project that worked on selecting and changing themes of a
+                website.
               </p>
             </div>
             <ul className="oproject-tools-list">
               <li className="oproject-tool"> VS Code </li>
-              <li className="oproject-tool"> Material UI </li>
-              <li className="oproject-tool"> Firebase </li>
+              <li className="oproject-tool"> JS </li>
+              <li className="oproject-tool"> HTML </li>
+              <li className="oproject-tool"> CS </li>
+            </ul>
+          </div>
+
+          <div className="other-projects">
+            <div className="oproject-top-container">
+              <div className="folder-icon-container">
+                <a
+                  href="https://github.com/btmortondev"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  {" "}
+                  <FolderOutlined />{" "}
+                </a>
+              </div>
+              <div className="openwith-icon-container">
+                {" "}
+                <OpenInNewOutlined />{" "}
+              </div>
+            </div>
+            <div className="oproject-title-container">
+              <p className="oproject-title"> TicTacToe AI </p>
+            </div>
+            <div className="oproject-description-container">
+              <p className="oproject-description">
+                {" "}
+                Design an AI that would be smart enough to beat a real player.
+                AI would make decisions based on possible moves and weighted
+                costs based on the board.
+              </p>
+            </div>
+            <ul className="oproject-tools-list">
+              <li className="oproject-tool"> Visual Studio </li>
+              <li className="oproject-tool"> Java </li>
+              <li className="oproject-tool"> AI Design </li>
+            </ul>
+          </div>
+
+          <div className="other-projects">
+            <div className="oproject-top-container">
+              <div className="folder-icon-container">
+                <a
+                  href="https://github.com/btmortondev"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  {" "}
+                  <FolderOutlined />{" "}
+                </a>
+              </div>
+              <div className="openwith-icon-container">
+                {" "}
+                <OpenInNewOutlined />{" "}
+              </div>
+            </div>
+            <div className="oproject-title-container">
+              <p className="oproject-title"> Pathfinding Simulator </p>
+            </div>
+            <div className="oproject-description-container">
+              <p className="oproject-description">
+                {" "}
+                Create a heuristic that would be better than Manhattan distance
+                based on the start point and end point given by the user.
+              </p>
+            </div>
+            <ul className="oproject-tools-list">
+              <li className="oproject-tool"> Visual Studio </li>
+              <li className="oproject-tool"> Java </li>
+              <li className="oproject-tool"> Algorithms </li>
             </ul>
           </div>
         </div>

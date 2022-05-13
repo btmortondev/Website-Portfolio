@@ -185,7 +185,7 @@
 .other-projects {
   height: 30vh;
   width: 15vw;
-  border: 1px solid black;
+  /*border: 1px solid black;*/
   margin-bottom: 30px;
   position: relative;
   transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
@@ -196,7 +196,7 @@
 }
 
 .oproject-top-container {
-  border: 1px solid blue;
+  /*border: 1px solid blue;*/
   width: 100%;
   padding: 10px;
   display: flex;
@@ -207,18 +207,18 @@
 
 .folder-icon-container {
   color: var(--theme-black);
-  border: 1px solid red;
+  /*border: 1px solid red;*/
   width: fit-content;
 }
 
 .openwith-icon-container {
   color: var(--theme-black);
-  border: 1px solid red;
+  /*border: 1px solid red;*/
   width: fit-content;
 }
 
 .oproject-title-container {
-  border: 1px solid blue;
+  /*border: 1px solid blue;*/
   width: 100%;
 }
 
@@ -227,7 +227,7 @@
 }
 
 .oproject-description-container {
-  border: 1px solid blue;
+  /*border: 1px solid blue;*/
   width: 100%;
 }
 
@@ -236,12 +236,12 @@
 }
 
 .oproject-tools-container {
-  border: 1px solid blue;
+  /*border: 1px solid blue;*/
   width: 100%;
 }
 
 .oproject-tools-list {
-  border: 1px solid blue;
+  /*border: 1px solid blue;*/
   list-style: none;
   display: flex;
   flex-wrap: none;
