@@ -209,6 +209,11 @@
   color: var(--theme-black);
   /*border: 1px solid red;*/
   width: fit-content;
+  text-decoration: none;
+}
+
+.folder-icon-container a:visited {
+  text-decoration: none;
 }
 
 .openwith-icon-container {

@@ -13,9 +13,9 @@ const Home = () => {
       <div className="homepage-subgreeting">
         <p className="homepage-summary">
           {" "}
-          I'm passionate about creating sleek and efficiently designed websites.
-          My focus and most of my knowledge is on front-end, but would be
-          interested in becoming full-stack.
+          I'm passionate about creating and designing differnt websites and web
+          applications. My focus and most of my knowledge is on front-end, but I
+          would be interested in becoming full-stack.
         </p>
       </div>
 
