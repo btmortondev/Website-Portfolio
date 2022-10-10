@@ -9,6 +9,7 @@
 
 .page-title {
   color: var(--theme-black);
+  font-size: 2.4rem;
   padding: 0 1em;
   margin: 10rem 0 5rem 0;
   width: 100%;
