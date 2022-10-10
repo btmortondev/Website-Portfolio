@@ -1,69 +1,45 @@
 @import url("https://fonts.googleapis.com/css2?family=Pirata+One&display=swap");
-.greeting-content {
-  /*border: 6px solid red;*/
-  position: absolute;
-  left: 10vw;
-  height: 100vh;
-  width: 50%;
-  background-color: var(--theme-background);
-}
 
-.picture-content {
-  position: absolute;
-  left: 50vw;
+
+.greeting-content {
+  position: fixed;
+  left: 10vw;
+  right: 10vw;
   height: 100vh;
-  width: 70%;
+  min-width: 80vw;
+  background-color: var(--theme-background);
+  /* border: 1px solid red; */
 }
 
 .introBox {
-  position: absolute;
-  background-color: transparent;
-  left: 5vw;
-  top: 20vh;
-  /*border: 1px solid white;*/
-  width: auto;
-  height: auto;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
+  margin: 10em 0 10em 5em;
+  max-width: 600px;
+  /* border: 1px solid green; */
 }
 
 .homepage-greeting {
   color: var(--theme-black);
-  background-color: transparent;
-  /*border: 1px solid white;*/
-  font-size: 28px;
-  margin: 0;
+  font-size: 2.8rem;
+  /* border: 1px solid black; */
 }
 
 .nameBanner {
   color: var(--theme-black);
-  background-color: transparent;
-  /*border: 1px solid white;*/
-  font-size: 45px;
+  font-size: 4.5rem;
+  /* border: 1px solid black; */
 }
 
 .roleBanner {
   color: var(--theme-black);
-  background-color: transparent;
-  font-size: 28px;
-  /*border: 1px solid white;*/
-  margin: 0;
+  font-size: 2.8rem;
+  /*border: 1px solid black;*/
 }
 
 .homepage-subgreeting {
-  position: absolute;
-  left: 5vw;
-  top: 55vh;
-  margin-right: 10vw;
-  width: auto;
-  background-color: transparent;
-  /*border: 1px solid white;*/
-  width: auto;
-  height: auto;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
+  font-size: 1.8rem;
+  max-width: 700px;
+  margin: 0 0 5em 5em;
+  /*border: 1px solid purple;*/
 }
 
 .homepage-summary {
@@ -71,26 +47,72 @@
   background-color: transparent;
 }
 
-.slide-container {
-  position: absolute;
-  left: 5vw;
-  top: 70vh;
-  width: 60%;
-  height: 25%;
+.picture-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 4em;
+  /* border: 1px solid sienna; */
 }
 
-.slide-container {
-  overflow: hidden;
-}
 
 .image-container {
   filter: grayscale(100%);
-  transition: all 500ms ease-in-out;
   border-radius: 50%;
+  max-width: 100%;
 }
 
-/*
-.image-container:hover {
-  filter: none;
+@media screen and (max-width: 950px){
+  .homepage-subgreeting {
+    margin-right: 1.5em;
+  }
 }
-*/
+
+@media screen and (max-width: 700px){
+  .introBox {
+    max-width: 100%;
+    margin: 5em 0 5em 0;
+    text-align: center;
+    /* border: 1px solid black; */
+  }
+
+  .homepage-greeting {
+    font-size: 2rem;
+  }
+
+  .nameBanner {
+    font-size: 3.8rem;
+  }
+
+  .roleBanner {
+    font-size: 2rem;
+  }
+
+  .homepage-subgreeting {
+    max-width: 100%;
+    text-align: center;
+    margin: 0 0 2em 0;
+    font-size: 1.6rem;
+    /* border: 1px solid black; */
+  }
+
+  .picture-container {
+    justify-content: center;
+    width: 100%;
+    /* border: 1px solid black; */
+  }
+
+  .image-container {
+    scale: .75;
+  }
+}
+
+@media screen and (max-width:400px){
+  .nameBanner {
+    font-size: 3rem;
+  }
+  
+  .homepage-subgreeting {
+    font-size: 1.4rem;
+    margin: 0 1em 0 1em;
+  }
+}

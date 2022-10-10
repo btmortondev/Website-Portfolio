@@ -16,7 +16,7 @@ const Socialbar = () => {
           className="social-icons"
         >
           {" "}
-          <TwitterIcon />{" "}
+          <TwitterIcon fontSize="large"/>{" "}
         </a>
         <a
           href="https://www.youtube.com/channel/UC1E6YyXqxDc6-u8pLJpcqWw/featured"
@@ -25,7 +25,7 @@ const Socialbar = () => {
           className="social-icons"
         >
           {" "}
-          <YouTubeIcon />{" "}
+          <YouTubeIcon fontSize="large"/>{" "}
         </a>
         <a
           href="https://www.instagram.com/btmortondev/"
@@ -34,7 +34,7 @@ const Socialbar = () => {
           className="social-icons"
         >
           {" "}
-          <InstagramIcon />{" "}
+          <InstagramIcon fontSize="large"/>{" "}
         </a>
         <a
           href="https://github.com/btmortondev"
@@ -43,7 +43,7 @@ const Socialbar = () => {
           className="social-icons"
         >
           {" "}
-          <GitHubIcon />{" "}
+          <GitHubIcon fontSize="large"/>{" "}
         </a>
         <a
           href="https://www.linkedin.com/in/brandon-morton-551508215/"
@@ -52,7 +52,7 @@ const Socialbar = () => {
           className="social-icons"
         >
           {" "}
-          <LinkedInIcon />{" "}
+          <LinkedInIcon fontSize="large"/>{" "}
         </a>
       </div>
     </div>

@@ -3,10 +3,11 @@
   position: fixed;
   top: 0;
   right: 0;
-  height: 100vh;
-  width: 5%;
-  /*border: 1px solid white;*/
+  min-height: 100vh;
+  min-width: 10vw;
+  z-index: 1;
   display: block;
+  /* border: 1px solid blue; */
 }
 
 .socialBar-container {
@@ -20,15 +21,29 @@
   justify-content: space-around;
   align-items: center;
   align-content: center;
+  /* border: 1px solid black; */
 }
 
 .social-icons {
   color: var(--theme-black);
   text-decoration: none;
-  padding-right: 10px;
   transition: all 500ms ease-in-out;
 }
 
 .social-icons:hover {
   color: var(--theme-mainAccent);
+}
+
+@media screen and (max-height:700px){
+  .socialBar-container {
+    height: 75%;
+    margin: 8em 0 8em 0;
+  }
+}
+
+@media screen and (max-height:400px){
+  .socialBar-container {
+    height: 100%;
+    margin: 0;
+  }
 }

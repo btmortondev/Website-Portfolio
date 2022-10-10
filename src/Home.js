@@ -19,14 +19,12 @@ const Home = () => {
         </p>
       </div>
 
-      <div className="picture-content">
-        <div className="slide-container">
-          <img
-            className="image-container"
-            src={SelfieImage}
-            alt="selfie for slide"
-          />
-        </div>
+      <div className="picture-container">
+        <img
+          className="image-container"
+          src={SelfieImage}
+          alt="selfie for slide"
+        />
       </div>
     </div>
   );

@@ -1,55 +1,44 @@
 .contact-content {
-  margin-top: 10%;
-  margin-left: 25%;
+  position: fixed;
+  left: 10vw;
+  right: 10vw;
+  height: 100vh;
+  min-width: 80vw;
+  /* border: 1px solid red; */
 }
 
 .page-title {
   color: var(--theme-black);
-  width: fit-content;
-  margin-left: 25%;
+  padding: 0 1em;
+  margin: 10rem 0 5rem 0;
+  width: 100%;
+  text-align: center;
+  /* border: 1px solid black; */
 }
 
 .contact-form {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   justify-content: center;
-  width: 50%;
-  border-radius: 10px;
-  padding: 30px;
-  margin-left: 10%;
+  max-width: 700px;
+  padding: 1em;
+  margin: 0 auto;
+  /* border: 1px solid black; */
 }
 
-.form-label-first {
+.form-label {
   color: var(--theme-black);
-  font-size: 24px;
-}
-
-.form-label-last {
-  color: var(--theme-black);
-  font-size: 24px;
-}
-
-.form-label-email {
-  color: var(--theme-black);
-  font-size: 24px;
-}
-
-.form-label-phone {
-  color: var(--theme-black);
-  font-size: 24px;
-}
-
-.form-label-message {
-  color: var(--theme-black);
-  font-size: 24px;
+  font-size: 2.4rem;
 }
 
 .form-input {
   color: var(--theme-background);
   border-color: var(--theme-darkgrey);
-  border-radius: 25% 10%;
-  border-width: 5px;
-  font-size: 20px;
+  border-radius: 1rem;
+  border-width: .4rem;
+  font-size: 2rem;
+  width: 100%;
 }
 
 ::placeholder {
@@ -58,13 +47,14 @@
 
 .form-submit {
   color: var(--theme-black);
-  font-size: 18px;
+  font-size: 1.8rem;
   border-color: var(--theme-lightgrey);
-  border-radius: 10px;
-  border-width: 5px;
-  margin-top: 20px;
-  width: 25%;
-  margin-left: 37.5%;
+  border-radius: 1rem;
+  border-width: .5rem;
+  margin-top: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: max-content;
   transition: all 400ms ease-in-out;
 }
 
@@ -80,30 +70,18 @@
   border-radius: 10px;
   font-size: 20px;
   height: 120px;
+  width: 100%;
 }
 
-@media only screen and (max-width: 414px) {
+@media screen and (max-width: 400px){
   .page-title {
-    width: auto;
-    display: flex;
-    margin-left: 80px;
-  }
-
-  .contact-form {
-    margin-left: 80px;
-  }
-
-  .form-label {
-    font-size: 20px;
-  }
-
-  .form-input {
-    font-size: 16px;
-  }
-
-  .form-submit {
-    font-size: 12px;
-    width: 100px;
-    margin-left: 45px;
+    margin: 2rem 0 5rem 0;
   }
 }
+
+@media screen and (max-width:300px){
+  .form-label {
+    font-size: 1.8rem;
+  }
+}
+

@@ -1,14 +1,16 @@
 * {
   box-sizing: border-box;
+  z-index: 1;
 }
+
 .nav-header {
   position: fixed;
   top: 0;
   left: 0;
-  width: 10%;
-  height: 100%;
+  min-width: 10vw;
+  min-height: 100vh;
   display: block;
-  /*border: 1px solid white;*/
+  /* border: 1px solid green; */
 }
 
 .nav-header-container {
@@ -28,6 +30,7 @@
 
 .navLink {
   color: var(--theme-black);
+  font-size: 1.6rem;
   transform: rotate(-90deg);
   text-decoration: none;
 }
@@ -35,4 +38,36 @@
 .navLink:hover {
   background-color: var(--theme-hovercolor);
   border-radius: 4px;
+}
+
+@media screen and (max-height:400px){
+  .navLink {
+    font-size: 1.2rem;
+    margin: 0 3em 0 3em;
+  }
+  .nav-header-img {
+    display: none;
+  }
+}
+
+@media screen and (max-height:300px){
+  .nav-header-img {
+    display: none;
+  }
+}
+
+@media screen and (max-width:500px){
+  .nav-header-img {
+    display: none;
+  }
+}
+
+@media screen and (max-width:280px){
+  .navLink {
+    font-size: 1.2rem;
+  }
+
+  .nav-header-img {
+    display: none;
+  }
 }
