@@ -1,39 +1,46 @@
 .about-content {
-  border: 1px solid black;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 50%;
-  margin-left: 25%;
-  margin-top: 5%;
+  position: fixed;
+  left: 10vw;
+  right: 10vw;
+  height: 100vh;
+  min-width: 80vw;
+  /* border: 1px solid red; */
 }
 
 .about-title {
   color: var(--theme-black);
-  font-size: 40px;
+  font-size: 4rem;
+  max-width: 100%;
+  text-align: center;
+  /* border: 1px solid black; */
+}
+
+.about-body {
+  max-width: 1000px;
+  margin: 0 auto;
+  /* border: 1px solid black; */
 }
 
 /* Content for first fold */
 .about-first-fold {
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 30px;
-  justify-content: center;
+  width: 100%;
 }
 
 .about-contact {
   display: flex;
   align-items: center;
   list-style: none;
+  /* border: 1px solid red; */
 }
 
 .about-contact-li {
   color: var(--theme-black);
-  font-size: 20px;
+  font-size: 2rem;
+  /* border: 1px solid blue; */
 }
 
 .github-link {
-  padding-right: 10px;
+  padding-right: 1em;
   color: var(--theme-black);
   transition: all 500ms ease-in-out;
 }
@@ -43,7 +50,7 @@
 }
 
 .linkedin-link {
-  padding-right: 10px;
+  padding-right: 1em;
   color: var(--theme-black);
   transition: all 500ms ease-in-out;
 }
@@ -54,8 +61,11 @@
 
 /* Content for Resume Download Link */
 .about-description {
-  margin-left: 40px;
+  margin-left: 4em;
   color: var(--theme-darkgrey);
+  font-size: 1.4rem;
+  padding-right: 1.5rem;
+  /* border: 1px solid black; */
 }
 
 .resume-link:visited {
@@ -65,7 +75,7 @@
 .resume-download-icon {
   color: var(--theme-black);
   transition: all 500ms ease-in-out;
-  padding-left: 5px;
+  padding-left: 0.5em;
 }
 
 .resume-download-icon:hover {
@@ -75,23 +85,30 @@
 /* Interests Portion of About Page */
 .interests-title {
   color: var(--theme-black);
-  margin-left: 40px;
+  font-size: 2rem;
+  margin-left: 1em;
 }
 
 .interests-li {
   list-style: none;
   color: var(--theme-darkgrey);
-  padding-right: 20px;
+  font-size: 1.4rem;
+  padding-right: 2em;
 }
 
 .interests-ul {
   display: flex;
 }
 
+.interests-items {
+  margin: 0.5em;
+}
+
 /* Skills Portion on About Page */
 .skills-title {
   color: var(--theme-black);
-  margin-left: 40px;
+  font-size: 2rem;
+  margin-left: 1em;
 }
 
 .skills-ul {
@@ -101,13 +118,21 @@
 .skills-li {
   color: var(--theme-darkgrey);
   list-style: none;
-  padding-right: 20px;
+  font-size: 1.4rem;
+  padding-right: 2em;
+  width: 100%;
+  /* border: 1px solid black; */
+}
+
+.skills-items {
+  margin: 0.5rem;
 }
 
 /* Content for Work Experience Section */
 .work-experience-title {
   color: var(--theme-black);
-  margin-left: 40px;
+  font-size: 2rem;
+  margin-left: 1em;
 }
 
 .work-experience-ul {
@@ -117,48 +142,79 @@
 .work-experience-li {
   color: var(--theme-darkgrey);
   list-style: none;
-  padding-right: 20px;
+  font-size: 1.4rem;
+  padding-right: 2em;
 }
 
-@media only screen and (max-width: 414px) {
-  .about-content {
-    width: 70%;
-    margin-left: 15%;
-  }
-
+@media screen and (max-width: 900px){
   .about-title {
-    font-size: 30px;
+    font-size: 3rem;
   }
-
-  .about-contact-li {
-    font-size: 12px;
-  }
-
+  
   .about-description {
-    font-size: 12px;
+    font-size: 1.3rem;
   }
 
   .interests-title {
-    font-size: 20px;
+    font-size: 1.8rem;
   }
 
-  .interests-li {
-    font-size: 10px;
+  .interests-items {
+    font-size: 1.3rem;
   }
 
   .skills-title {
-    font-size: 20px;
+    font-size: 1.8rem;
   }
 
-  .skills-li {
-    font-size: 10px;
+  .skills-items {
+    font-size: 1.3rem;
   }
 
   .work-experience-title {
-    font-size: 20px;
+    font-size: 1.8rem;
   }
 
   .work-experience-li {
-    font-size: 10px;
+    font-size: 1.3rem;
+  }
+}
+
+@media screen and (max-width: 500px){
+  .about-title {
+    font-size: 2.4rem;
+  }
+  
+  .about-contact {
+    padding-left: 1em;
+  }
+
+  .about-description {
+    margin-left: 0;
+    padding-left: 1em;
+  }
+
+  .about-contact-li {
+    font-size: 1.6rem;
+  }
+
+  .interests-title {
+    margin-bottom: 0;
+  }
+  
+  .interests-ul {
+    display: block;
+  }
+
+  .skills-title {
+    margin-bottom: 0;
+  }
+  
+  .skills-ul {
+    display: block;
+  }
+
+  .work-experience-title {
+    margin-bottom: 0
   }
 }

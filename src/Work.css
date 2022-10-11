@@ -1,9 +1,10 @@
 .work-content {
-  margin-left: 0;
-  position: absolute;
-  left: 10%;
-  right: 5%;
-  top: 0;
+  position: fixed;
+  left: 10vw;
+  right: 10vw;
+  height: 100vh;
+  min-width: 80vw;
+  border: 1px solid red;
 }
 
 .title-container {
