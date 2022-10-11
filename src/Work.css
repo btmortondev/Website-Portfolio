@@ -1,10 +1,10 @@
 .work-content {
-  position: fixed;
-  left: 10vw;
-  right: 10vw;
-  height: 100vh;
-  min-width: 80vw;
-  border: 1px solid red;
+  margin-left: 0;
+  position: absolute;
+  left: 5vw;
+  right: 5vw;
+  top: 0;
+  /* border: 1px solid red; */
 }
 
 .title-container {
@@ -17,7 +17,7 @@
 }
 
 .project-section {
-  height: 40vh;
+  min-height: 40vh;
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -28,13 +28,13 @@
 
 .project-image-odd {
   width: 500px;
-  height: 300px;
+  height: auto;
   border-radius: 6px;
 }
 
 .project-image-even {
   width: 500px;
-  height: 300px;
+  height: auto;
   border-radius: 6px;
   margin-left: 40px;
 }

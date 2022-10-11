@@ -1,25 +1,33 @@
 import logo from "./img/btm-logo.gif";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
+import HomeIcon from '@mui/icons-material/Home';
+import WorkIcon from '@mui/icons-material/Work';
+import PersonIcon from '@mui/icons-material/Person';
+import ContactPageIcon from '@mui/icons-material/ContactPage';
 
 const Navbar = () => {
   return (
     <div className="nav-header">
       <nav className="nav-header-container">
         <Link to="/" className="navLink">
-          Home
+        {" "}
+          <HomeIcon fontSize="large"/>{" "}
         </Link>
 
         <Link to="/work" className="navLink">
-          Projects
+        {" "}
+          <WorkIcon fontSize="large"/>{" "}
         </Link>
 
         <Link to="/about" className="navLink">
-          About Me
+        {" "}
+          <PersonIcon fontSize="large"/>{" "}
         </Link>
 
         <Link to="/contact" className="navLink">
-          Contact
+        {" "}
+          <ContactPageIcon fontSize="large"/>{" "}
         </Link>
 
         <img className="nav-header-img" src={logo} alt="btm logo" />

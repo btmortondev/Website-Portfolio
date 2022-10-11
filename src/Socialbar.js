@@ -1,9 +1,14 @@
 import "./Socialbar.css";
-import TwitterIcon from "@material-ui/icons/Twitter";
-import YouTubeIcon from "@material-ui/icons/YouTube";
-import InstagramIcon from "@material-ui/icons/Instagram";
-import GitHubIcon from "@material-ui/icons/GitHub";
-import LinkedInIcon from "@material-ui/icons/LinkedIn";
+// import TwitterIcon from "@material-ui/icons/Twitter";
+import TwitterIcon from '@mui/icons-material/Twitter';
+// import YouTubeIcon from "@material-ui/icons/YouTube";
+import YouTubeIcon from '@mui/icons-material/YouTube';
+// import InstagramIcon from "@material-ui/icons/Instagram";
+import InstagramIcon from '@mui/icons-material/Instagram';
+// import GitHubIcon from "@material-ui/icons/GitHub";
+import GitHubIcon from '@mui/icons-material/GitHub';
+// import LinkedInIcon from "@material-ui/icons/LinkedIn";
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
 const Socialbar = () => {
   return (

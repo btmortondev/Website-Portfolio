@@ -1,9 +1,8 @@
 .about-content {
-  position: fixed;
-  left: 10vw;
-  right: 10vw;
-  height: 100vh;
-  min-width: 80vw;
+  position: absolute;
+  left: 5vw;
+  right: 5vw;
+  max-width: 80vw;
   /* border: 1px solid red; */
 }
 
@@ -113,6 +112,8 @@
 
 .skills-ul {
   display: flex;
+  max-width: 90%;
+  border: 1px solid black;
 }
 
 .skills-li {
@@ -212,6 +213,11 @@
   
   .skills-ul {
     display: block;
+    width: 50%;
+  }
+
+  .skills-items {
+    width: 100%;
   }
 
   .work-experience-title {

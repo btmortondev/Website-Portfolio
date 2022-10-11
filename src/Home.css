@@ -2,9 +2,9 @@
 
 
 .greeting-content {
-  position: fixed;
-  left: 10vw;
-  right: 10vw;
+  position: absolute;
+  left: 5vw;
+  right: 5vw;
   height: 100vh;
   min-width: 80vw;
   background-color: var(--theme-background);
@@ -114,5 +114,9 @@
   .homepage-subgreeting {
     font-size: 1.4rem;
     margin: 0 1em 0 1em;
+  }
+
+  .image-container {
+    height: 250px;
   }
 }

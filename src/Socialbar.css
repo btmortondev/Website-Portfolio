@@ -1,12 +1,9 @@
 .socialBar {
-  color: white;
   position: fixed;
-  top: 0;
-  right: 0;
+  width: 5vw;
   min-height: 100vh;
-  min-width: 10vw;
-  z-index: 1;
-  display: block;
+  overflow: auto;
+  right: 0;
   /* border: 1px solid blue; */
 }
 
@@ -27,6 +24,7 @@
 .social-icons {
   color: var(--theme-black);
   text-decoration: none;
+  /* border: 1px solid red; */
   transition: all 500ms ease-in-out;
 }
 

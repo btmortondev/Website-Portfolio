@@ -41,8 +41,8 @@ const Contact = () => {
 
   return (
     <div className="contact-content">
-      <h1 className="page-title"> Get In Touch </h1>
       <form className="contact-form" onSubmit={handleSubmit}>
+      <h1 className="page-title"> Get In Touch </h1>
         <label className="form-label">First Name: </label>
         <input
           className="form-input"
