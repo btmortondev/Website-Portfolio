@@ -91,50 +91,53 @@ const Work = () => {
             </a>
           </div>
         </div>
-      </section>
-
-      <section className="project-section">
-        <div className="project-information-even">
-          <p className="project-team-even"> Group College Project </p>
-          <p className="project-name-even"> Datcord </p>
-          <p className="project-description-even">
-            {" "}
-            This project was a Discord clone that I made with some of my
-            classmates. Used Firebase snapshotting feature for real-time
-            messaging. Also added the ability to send image files too.
-          </p>
-          <ul className="project-tools-list-even">
-            <li className="project-tools-even"> VS Code </li>
-            <li className="project-tools-even"> Material UI </li>
-            <li className="project-tools-even"> Firebase </li>
-          </ul>
-          <div className="project-links-even">
-            <a
-              href="https://github.com/btmortondev"
-              target="_blank"
-              rel="noreferrer"
-              className="github-icon-even"
-            >
-              {" "}
-              <GitHubIcon />{" "}
-            </a>
-          </div>
-        </div>
-        <div className="project-image-even">
-          <iframe
-            width="500"
-            height="300"
-            src="https://www.youtube.com/embed/OWkF7FSIk6I"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-          ></iframe>
-        </div>
-      </section>
+      </section>  
+      
       <p className="other-projects-title">Other Projects</p>
       <section className="project-section">
         <div className="other-project-container">
+        <div className="other-projects">
+            <div className="oproject-top-container">
+              <div className="folder-icon-container">
+                <a
+                  href="https://github.com/btmortondev"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  {" "}
+                  <FolderOutlined />{" "}
+                </a>
+              </div>
+              <div className="openwith-icon-container">
+                <a
+                  href="https://youtu.be/OWkF7FSIk6I"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  {" "}
+                  <OpenInNewOutlined />{" "}
+                </a>
+              </div>
+            </div>
+            <div className="oproject-title-container">
+              <p className="oproject-title"> Datcord </p>
+            </div>
+            <div className="oproject-description-container">
+              <p className="oproject-description">
+                {" "}
+                This was one of my projects I did during my senior year of college.
+                This was a group project where we created a clone of Discord and we
+                had to operate like a development team.
+              </p>
+            </div>
+            <ul className="oproject-tools-list">
+              <li className="oproject-tool"> VS Code </li>
+              <li className="oproject-tool"> Material UI </li>
+              <li className="oproject-tool"> Firebase </li>
+            </ul>
+          </div>
+          
+          
           <div className="other-projects">
             <div className="oproject-top-container">
               <div className="folder-icon-container">

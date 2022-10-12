@@ -1,24 +1,24 @@
 .work-content {
-  margin-left: 0;
   position: absolute;
   left: 5vw;
   right: 5vw;
-  top: 0;
+  max-width: 80vw;
   /* border: 1px solid red; */
 }
 
 .title-container {
   width: 100%;
   height: 10vh;
+  /* border: 1px solid black; */
 }
 
 .work-title {
-  font-size: 30px;
+  font-size: 3rem;
 }
 
 .project-section {
   min-height: 40vh;
-  width: 100%;
+  max-width: 100%;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
@@ -36,42 +36,44 @@
   width: 500px;
   height: auto;
   border-radius: 6px;
-  margin-left: 40px;
+  margin-left: 4rem;
 }
 
 .project-information-odd {
   height: 100%;
-  margin-left: 40px;
+  margin-left: 4rem;
   width: 40%;
+  /* border: 1px solid black; */
 }
 
 .project-information-even {
   height: 100%;
-  width: 40%;
+  max-width: 40%;
+  /* border: 1px solid black; */
 }
 
 .project-team-odd {
   color: var(--theme-black);
   text-align: right;
-  font-size: 14px;
+  font-size: 1.4rem;
 }
 
 .project-team-even {
   color: var(--theme-black);
   text-align: left;
-  font-size: 14px;
+  font-size: 1.4rem;
 }
 
 .project-name-odd {
   color: var(--theme-black);
   text-align: right;
-  font-size: 22px;
+  font-size: 2.2rem;
 }
 
 .project-name-even {
   color: var(--theme-black);
   text-align: left;
-  font-size: 22px;
+  font-size: 2.2rem;
 }
 
 .project-description-odd {
@@ -107,13 +109,13 @@
 .project-tools-odd {
   display: list-item;
   text-align: right;
-  margin-right: 25px;
+  margin-right: 2.5rem;
 }
 
 .project-tools-even {
   display: list-item;
   text-align: left;
-  margin-right: 25px;
+  margin-right: 2.5rem;
 }
 
 .project-links-odd {
@@ -163,13 +165,13 @@
 }
 
 .vid-container {
-  height: 100%;
-  width: 100%;
+  max-height: 100%;
+  max-width: 100%;
   border-radius: 6px;
 }
 
 .other-project-container {
-  height: 40vh;
+  min-height: 40vh;
   width: 80%;
   display: flex;
   flex-direction: row;
@@ -186,10 +188,10 @@
 .other-projects {
   height: 30vh;
   width: 15vw;
-  /*border: 1px solid black;*/
   margin-bottom: 30px;
   position: relative;
   transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  /* border: 1px solid black; */
 }
 
 .other-projects:hover {
@@ -197,8 +199,8 @@
 }
 
 .oproject-top-container {
-  /*border: 1px solid blue;*/
-  width: 100%;
+  /* border: 1px solid blue; */
+  max-width: 100%;
   padding: 10px;
   display: flex;
   flex-direction: row;
@@ -215,6 +217,7 @@
 
 .folder-icon-container a:visited {
   text-decoration: none;
+  color: var(--theme-black);
 }
 
 .openwith-icon-container {
@@ -223,9 +226,14 @@
   width: fit-content;
 }
 
+.openwith-icon-container a:visited {
+  color: var(--theme-black);
+  text-decoration: none;
+}
+
 .oproject-title-container {
   /*border: 1px solid blue;*/
-  width: 100%;
+  max-width: 100%;
 }
 
 .oproject-title {
@@ -247,11 +255,13 @@
 }
 
 .oproject-tools-list {
-  /*border: 1px solid blue;*/
+  /* border: 1px solid blue; */
+  max-width: 100%;
   list-style: none;
   display: flex;
   flex-wrap: none;
   flex-direction: row;
+  padding: 0;
   justify-content: flex-start;
 }
 
@@ -259,4 +269,114 @@
   font-size: 10px;
   margin-right: 10px;
   color: var(--theme-mainAccent);
+  /* border: 1px solid green; */
+}
+
+@media screen and (max-width:1200px){
+  .other-projects {
+    width: 20vw;
+  }
+
+  .project-tools-even {
+    font-size: .8rem;
+  }
+
+  .project-tools-odd {
+    font-size: .8rem;
+  }
+}
+
+@media screen and (max-width:750px){
+  .title-container {
+    height: auto;
+  }
+
+  .work-title {
+    font-size: 2.4rem;
+    margin-bottom: 0;
+  }
+  
+  .other-projects {
+    width: 30vw;
+    height: auto;
+  }
+
+  .project-name-even {
+    font-size: 1.2rem;
+  }
+
+  .project-name-odd {
+    font-size: 1.2rem;
+  }
+
+  .project-tools-list-even {
+    flex-wrap: wrap;
+  }
+  
+  .project-tools-even {
+    min-width: 100%;
+  }
+
+  .project-tools-list-odd {
+    flex-wrap: wrap;
+  }
+  
+  .project-tools-odd {
+    min-width: 100%;
+  }
+}
+
+@media screen and (max-width:500px){
+  .other-project-container {
+    justify-content: center;
+  }
+
+  .other-projects {
+    width: 40vw;
+  }
+}
+
+@media screen and (max-width:400px){
+  .work-title {
+    font-size: 2rem;
+    text-align: left;
+  }
+
+  .project-section {
+    flex-wrap: wrap;
+    max-width: 100%;
+  }
+
+  .project-information-even {
+    min-width: 100%;
+  }
+
+  .project-information-odd {
+    min-width: 100%;
+    margin-left: 0;
+    order: 1;
+  }
+
+  .project-image-even {
+    max-width: 100%;
+    margin-left: 0;
+  }
+
+  .project-image-odd {
+    max-width: 100%;
+    order: 2;
+  }
+
+
+  .project-team-even {
+    font-size: 1.6rem;
+  }
+
+  .project-team-odd {
+    font-size: 1.6rem;
+  }
+  
+  .oproject-tools-list {
+    flex-wrap: wrap;
+  }
 }
