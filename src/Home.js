@@ -13,7 +13,7 @@ const Home = () => {
       <div className="homepage-subgreeting">
         <p className="homepage-summary">
           {" "}
-          I'm passionate about creating and designing differnt websites and web
+          I'm passionate about creating and designing different websites and web
           applications. My focus and most of my knowledge is on front-end, but I
           would be interested in becoming full-stack.
         </p>
